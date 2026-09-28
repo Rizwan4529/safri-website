@@ -1,0 +1,59 @@
+---
+description: Safri website coding standards — StayOps-style structure, theme tokens, commons first
+alwaysApply: true
+---
+
+# Safri Website Standards
+
+Copied from StayOps website coding style. Change theme tokens only when asked.
+
+## Before writing code
+
+Read `src/index.css`, `src/components/ui/`, `src/components/motion/`, and `src/constants/` first.
+
+## Folder map
+
+- `src/components/ui/` — shared primitives (Button, Toast, Field, FeatureArtPanel, StoreBadges, ContactForm, ServiceFeatureCard)
+- `src/components/motion/` — InView + motion variants
+- `src/components/layout/` — Navbar, Footer
+- `src/components/pages/` — route pages
+- `src/components/sections/` — page sections
+- `src/constants/` — nav, site copy, contact
+- `src/context/` — providers that wrap the app (Toast, Content)
+- `src/api/` — HTTP clients (tenant content)
+- `src/config/` — env + media URL helpers
+- `src/types/` — shared TS types (content CMS)
+
+## Commons first (strict)
+
+Use existing commons before inventing UI. Buttons go through `Button`. Scroll reveals go through `InView` / `MotionChild`. Toasts go through `useToast()`. Form labels/inputs use `Field` + `fieldClass`.
+
+If UI or logic appears in 2+ places, extract to `ui/` or `constants/`. Do not copy-paste.
+
+## Theme tokens
+
+Never hardcode colors, fonts, or radii in components. Use Tailwind tokens from `@theme` in `src/index.css`:
+
+```tsx
+// Bad
+<h1 className="font-serif text-[#0c5e6c]">Title</h1>
+
+// Good
+<h1 className="font-heading text-text">Title</h1>
+```
+
+- Headings: `font-heading` (Gilroy)
+- Body/UI: `font-body` (Gilroy)
+- Colors: `brand` (#008F7C), `brand-dark`, `brand-light`, `hero-patch` (#089D89), `accent` (#F57300), `text`, `text-inverse`, `surface`, `surface-subtle` (#FAFAFA), `surface-muted`, `border`, `footer`, `stats`, `feature-panel` (#D1ECE8), `contact-hero-end` (#F5FFFE)
+- All CTAs use `Button` with `size="cta"` (same height and width). Do not invent one-off button sizes.
+- Radius: `rounded-lg` for buttons and inputs. Pills/avatars only use `rounded-full`.
+
+## Coding style
+
+- Functional `const` components with default exports
+- `import type` for types; relative imports
+- Double quotes in `src/`
+- `as const` for static data arrays
+- Join class names with arrays + `.filter(Boolean).join(" ")` when conditional
+- Sections: outer `px-4 py-16 sm:px-6 sm:py-20 lg:px-10 lg:py-24`, inner `mx-auto max-w-7xl`
+- Respect `useReducedMotion` for every animation

@@ -1,0 +1,106 @@
+@import "tailwindcss";
+@import "@fontsource/raleway/400.css";
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("./assets/fonts/gilroy/Gilroy-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("./assets/fonts/gilroy/Gilroy-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("./assets/fonts/gilroy/Gilroy-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("./assets/fonts/gilroy/Gilroy-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme {
+  --font-heading: "Gilroy", sans-serif;
+  --font-body: "Gilroy", sans-serif;
+  --font-raleway: "Raleway", sans-serif;
+
+  --color-brand: #008f7c;
+  --color-brand-dark: #007566;
+  --color-brand-light: #e5f6f3;
+  --color-hero-patch: #089d89;
+  --color-accent: #f57300;
+  --color-accent-dark: #d56400;
+  --color-accent-hover: #e06a00;
+  --color-text: #1c1c1c;
+  --color-text-secondary: #4a4a52;
+  --color-text-muted: #757575;
+  --color-text-inverse: #ffffff;
+  --color-surface: #ffffff;
+  --color-surface-subtle: #fafafa;
+  --color-border: #e5e7eb;
+  --color-hero-bg: #008f7c;
+  --color-surface-muted: #f3faf8;
+  --color-footer: #05332d;
+  --color-stats: #2f2f2f;
+  --color-sketch: #b5a49a;
+  --color-feature-panel: #d1ece8;
+  --color-contact-hero-end: #f5fffe;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 6.5rem;
+    overflow-x: clip;
+  }
+
+  body {
+    @apply m-0 min-h-screen bg-surface font-body text-text antialiased;
+  }
+
+  #root {
+    @apply min-h-screen;
+  }
+}
+
+@keyframes float-slow {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes float-slower {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-14px);
+  }
+}
+
+@utility animate-float-slow {
+  animation: float-slow 5s ease-in-out infinite;
+}
+
+@utility animate-float-slower {
+  animation: float-slower 6.5s ease-in-out infinite;
+}
