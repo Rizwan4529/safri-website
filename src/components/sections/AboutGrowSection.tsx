@@ -1,3 +1,4 @@
+import pastaFallback from "../../assets/images/pasta.png";
 import { mediaUrl } from "../../config/env";
 import { useContent } from "../../context/ContentContext";
 import InView, { fadeLeft, fadeRight } from "../motion/InView";
@@ -29,7 +30,7 @@ const AboutGrowSection = () => {
 
   const heading = (modernBusiness?.titleLines ?? []).join(" ");
   const growStats = (statsSection?.stats ?? []).slice(0, 3);
-  const image = mediaUrl(growBanner?.image);
+  const image = mediaUrl(growBanner?.image) || pastaFallback;
 
   return (
     <section className="relative overflow-x-clip bg-surface-subtle">
@@ -74,6 +75,11 @@ const AboutGrowSection = () => {
               height={2500}
               loading="lazy"
               decoding="async"
+              onError={(event) => {
+                if (event.currentTarget.src !== pastaFallback) {
+                  event.currentTarget.src = pastaFallback;
+                }
+              }}
               className="relative z-10 w-3/4 object-contain"
             />
           ) : null}

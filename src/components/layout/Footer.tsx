@@ -49,6 +49,10 @@ type SocialSection = {
 type LegalSection = {
   id: string;
   copyrightText?: string;
+  privacyUrl?: string;
+  termsUrl?: string;
+  privacyLabel?: string;
+  termsLabel?: string;
 };
 
 const socialIconMap = {
@@ -119,12 +123,18 @@ const Footer = () => {
   const brand = getSection<BrandSection>("siteFooter", "brand");
   const company = getSection<LinkListSection>("siteFooter", "company");
   const support = getSection<LinkListSection>("siteFooter", "support");
+  const legalLinks = getSection<LinkListSection>("siteFooter", "legalLinks");
   const newsletter = getSection<NewsletterSection>("siteFooter", "newsletter");
   const social = getSection<SocialSection>("siteFooter", "social");
   const legal = getSection<LegalSection>("siteFooter", "legal");
 
   const sectionHref = (href: string) => resolveNavHref(href, isHome);
   const year = new Date().getFullYear();
+  const linkColumns = [
+    { key: "company", section: company, fallbackTitle: "Company" },
+    { key: "support", section: support, fallbackTitle: "Solutions" },
+    { key: "legalLinks", section: legalLinks, fallbackTitle: "Legal" },
+  ] as const;
 
   return (
     <footer className="bg-footer text-text-inverse">
@@ -135,8 +145,8 @@ const Footer = () => {
       >
         <div className="grid lg:grid-cols-[minmax(0,1.45fr)_minmax(0,0.7fr)]">
           <div className="py-12 sm:py-14 lg:py-16 lg:pr-12">
-            <div className="grid gap-10 sm:grid-cols-3 sm:gap-8">
-              <div className="max-w-xs">
+            <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4 sm:gap-8">
+              <div className="max-w-xs sm:col-span-2 lg:col-span-1">
                 {brand?.logo ? (
                   <img
                     src={mediaUrl(brand.logo)}
@@ -155,47 +165,51 @@ const Footer = () => {
                 ) : null}
               </div>
 
-              <div>
-                <h3 className="font-body text-base font-semibold text-text-inverse">
-                  {company?.title ?? "Company"}
-                </h3>
-                <ul className="mt-4 space-y-3">
-                  {(company?.items ?? []).map((link) => (
-                    <li key={String(link.id ?? link.path)}>
-                      <Link
-                        to={sectionHref(link.path)}
-                        className="font-body text-sm text-text-inverse/70 transition-colors hover:text-text-inverse"
-                      >
-                        {link.title}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-
-              <div>
-                <h3 className="font-body text-base font-semibold text-text-inverse">
-                  {support?.title ?? "Support"}
-                </h3>
-                <ul className="mt-4 space-y-3">
-                  {(support?.items ?? []).map((link) => (
-                    <li key={String(link.id ?? link.path)}>
-                      <Link
-                        to={sectionHref(link.path)}
-                        className="font-body text-sm text-text-inverse/70 transition-colors hover:text-text-inverse"
-                      >
-                        {link.title}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
+              {linkColumns.map(({ key, section, fallbackTitle }) => (
+                <div key={key}>
+                  <h3 className="font-body text-base font-semibold text-text-inverse">
+                    {section?.title ?? fallbackTitle}
+                  </h3>
+                  <ul className="mt-4 space-y-3">
+                    {(section?.items ?? []).map((link) => (
+                      <li key={String(link.id ?? link.path)}>
+                        <Link
+                          to={sectionHref(link.path)}
+                          className="font-body text-sm text-text-inverse/70 transition-colors hover:text-text-inverse"
+                        >
+                          {link.title}
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              ))}
             </div>
 
-            <p className="mt-10 border-t border-text-inverse/15 pt-6 font-body text-sm text-text-inverse/60">
-              {legal?.copyrightText ??
-                `Copyright ${year} Safri. All Rights Reserved.`}
-            </p>
+            <div className="mt-10 flex flex-col gap-3 border-t border-text-inverse/15 pt-6 sm:flex-row sm:items-center sm:justify-between">
+              <p className="font-body text-sm text-text-inverse/60">
+                {legal?.copyrightText ??
+                  `Copyright ${year} Safri. All Rights Reserved.`}
+              </p>
+              <div className="flex flex-wrap items-center gap-x-4 gap-y-2">
+                {legal?.privacyUrl ? (
+                  <Link
+                    to={legal.privacyUrl}
+                    className="font-body text-sm text-text-inverse/60 transition-colors hover:text-text-inverse"
+                  >
+                    {legal.privacyLabel ?? "Privacy Policy"}
+                  </Link>
+                ) : null}
+                {legal?.termsUrl ? (
+                  <Link
+                    to={legal.termsUrl}
+                    className="font-body text-sm text-text-inverse/60 transition-colors hover:text-text-inverse"
+                  >
+                    {legal.termsLabel ?? "Terms & Conditions"}
+                  </Link>
+                ) : null}
+              </div>
+            </div>
           </div>
 
           <div className="border-t border-text-inverse/15 py-12 sm:py-14 lg:border-t-0 lg:border-l lg:py-16 lg:pl-12">

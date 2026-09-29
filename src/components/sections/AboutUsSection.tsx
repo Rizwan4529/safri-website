@@ -7,6 +7,9 @@ type AboutIntroSection = {
   label?: string;
   titleLines?: string[];
   body?: string;
+  calloutTitle?: string;
+  calloutSubtitle?: string;
+  callout?: string;
   statValue?: string;
   statLabelLines?: string[];
   image?: string;
@@ -79,14 +82,35 @@ const AboutUsSection = () => {
             </div>
           ) : null}
 
-          {section?.statValue ? (
-            <div className="absolute right-4 bottom-6 z-20 w-[min(90%,26rem)] rounded-xl bg-accent/80 px-4 py-3.5 text-text-inverse shadow-[0_10px_28px_rgba(245,115,0,0.28)] backdrop-blur-[12px] sm:-right-20 sm:bottom-8 sm:px-5 sm:py-4">
-              <p className="font-heading text-2xl font-bold sm:text-[1.75rem]">
-                {section.statValue}
-              </p>
-              <p className="mt-1.5 font-body text-[0.72rem] leading-relaxed text-white/95 sm:text-[0.78rem]">
-                {(section.statLabelLines ?? []).join(" ")}
-              </p>
+          {section?.calloutTitle ||
+          section?.callout ||
+          section?.statValue ? (
+            <div className="absolute right-4 bottom-6 z-20 w-[min(92%,16rem)] rounded-xl bg-accent/85 px-4 py-3.5 text-text-inverse shadow-[0_10px_28px_rgba(245,115,0,0.28)] backdrop-blur-[12px] sm:-right-16 sm:bottom-8 sm:w-[min(92%,17.5rem)] sm:px-5 sm:py-4 lg:-right-10">
+              {section.calloutTitle ? (
+                <>
+                  <p className="font-heading text-lg font-bold tracking-[-0.02em] sm:text-xl">
+                    {section.calloutTitle}
+                  </p>
+                  {section.calloutSubtitle ? (
+                    <p className="mt-1 font-body text-[0.72rem] leading-snug text-white/95 sm:text-[0.78rem]">
+                      {section.calloutSubtitle}
+                    </p>
+                  ) : null}
+                </>
+              ) : section.callout ? (
+                <p className="font-body text-[0.78rem] leading-relaxed text-white/95 sm:text-[0.84rem]">
+                  {section.callout}
+                </p>
+              ) : (
+                <>
+                  <p className="font-heading text-2xl font-bold sm:text-[1.75rem]">
+                    {section.statValue}
+                  </p>
+                  <p className="mt-1.5 font-body text-[0.72rem] leading-relaxed text-white/95 sm:text-[0.78rem]">
+                    {(section.statLabelLines ?? []).join(" ")}
+                  </p>
+                </>
+              )}
             </div>
           ) : null}
         </InView>

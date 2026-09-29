@@ -1,7 +1,7 @@
 export const SERVE_BETTER_HEADING = "We're Here To Help You Serve Better";
 export const SERVE_BETTER_BODY =
   "Whether you run a single flagship or a growing chain, Safri connects your menus, outlets, kitchen, and guest apps so every order is clearer and every shift runs smoother.";
-export const SERVE_BETTER_PRIMARY_CTA = "Try Now";
+export const SERVE_BETTER_PRIMARY_CTA = "Book a demo";
 export const SERVE_BETTER_SECONDARY_CTA = "View solutions";
 
 export const ENTERPRISE_LABEL = "Enterprise";

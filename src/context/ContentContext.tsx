@@ -6,7 +6,9 @@ import {
   type ReactNode,
 } from "react";
 import { fetchTenantContent } from "../api/tenantContent";
+import fallbackPayload from "../data/fallbackTenantContent.json";
 import { applyTheme, getPage, getSection } from "../lib/content";
+import { normalizeDegreeMarks } from "../lib/formatCopy";
 import type {
   ContentPage,
   ContentSection,
@@ -26,6 +28,10 @@ type ContentContextValue = {
   ) => T | undefined;
 };
 
+const fallbackContent = normalizeDegreeMarks(
+  (fallbackPayload as { content: TenantSiteContent }).content,
+);
+
 const ContentContext = createContext<ContentContextValue | null>(null);
 
 export const ContentProvider = ({ children }: { children: ReactNode }) => {
@@ -38,7 +44,7 @@ export const ContentProvider = ({ children }: { children: ReactNode }) => {
 
     const load = async () => {
       try {
-        const next = await fetchTenantContent();
+        const next = normalizeDegreeMarks(await fetchTenantContent());
         if (cancelled) return;
         applyTheme(next.theme);
         setContent(next);
@@ -46,8 +52,9 @@ export const ContentProvider = ({ children }: { children: ReactNode }) => {
         setError(null);
       } catch (err) {
         if (cancelled) return;
-        setContent(null);
-        setStatus("error");
+        applyTheme(fallbackContent.theme);
+        setContent(fallbackContent);
+        setStatus("ready");
         setError(err instanceof Error ? err.message : "Failed to load content");
       }
     };

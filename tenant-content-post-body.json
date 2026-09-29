@@ -1,0 +1,2690 @@
+{
+  "content": {
+    "theme": {
+      "primaryColor": "#008F7C",
+      "primaryDark": "#007566",
+      "primaryLight": "#E5F6F3",
+      "secondaryColor": "#089D89",
+      "accentColor": "#F57300",
+      "accentDark": "#D56400",
+      "accentHover": "#E06A00",
+      "textColor": "#1C1C1C",
+      "textSecondary": "#4A4A52",
+      "textMuted": "#757575",
+      "textInverse": "#FFFFFF",
+      "surface": "#FFFFFF",
+      "surfaceSubtle": "#FAFAFA",
+      "surfaceMuted": "#F3FAF8",
+      "border": "#E5E7EB",
+      "footer": "#05332D",
+      "stats": "#2F2F2F",
+      "featurePanel": "#D1ECE8",
+      "contactHeroEnd": "#F5FFFE",
+      "buttonHoverColor": "#007566",
+      "fontHeading": "Gilroy",
+      "fontBody": "Gilroy"
+    },
+    "pages": [
+      {
+        "id": "siteHeader",
+        "sections": [
+          {
+            "id": "primaryNav",
+            "logo": "/uploads/files-1790670087044-logo.webp",
+            "logoAlt": "Safri",
+            "links": [
+              {
+                "id": 1,
+                "title": "Home",
+                "path": "/"
+              },
+              {
+                "id": 2,
+                "title": "About Us",
+                "path": "/about"
+              },
+              {
+                "id": 3,
+                "title": "Services",
+                "path": "/services",
+                "children": [
+                  {
+                    "id": 31,
+                    "title": "Online Ordering",
+                    "path": "/services/online-ordering"
+                  },
+                  {
+                    "id": 32,
+                    "title": "Delivery",
+                    "path": "/services/delivery"
+                  },
+                  {
+                    "id": 33,
+                    "title": "Operations",
+                    "path": "/services/operations"
+                  },
+                  {
+                    "id": 34,
+                    "title": "Safri 360°",
+                    "path": "/services/360"
+                  }
+                ]
+              },
+              {
+                "id": 4,
+                "title": "Contact Us",
+                "path": "/contact"
+              }
+            ],
+            "ctaText": "Book a demo",
+            "ctaPath": "/contact"
+          }
+        ]
+      },
+      {
+        "id": "siteFooter",
+        "sections": [
+          {
+            "id": "brand",
+            "logo": "/uploads/files-1790670087363-logo-white-small.webp",
+            "logoAlt": "Safri",
+            "title": "Safri",
+            "blurb": "Safri helps restaurants own their digital ordering channel—menus, multi-outlet operations, kitchen tickets, and delivery—without depending on a patchwork of tools."
+          },
+          {
+            "id": "company",
+            "title": "Company",
+            "items": [
+              {
+                "id": 1,
+                "title": "Why Safri?",
+                "path": "/about"
+              },
+              {
+                "id": 2,
+                "title": "Partner With Us",
+                "path": "/contact"
+              },
+              {
+                "id": 3,
+                "title": "Services",
+                "path": "/services"
+              }
+            ]
+          },
+          {
+            "id": "support",
+            "title": "Solutions",
+            "items": [
+              {
+                "id": 1,
+                "title": "Online Ordering",
+                "path": "/services/online-ordering"
+              },
+              {
+                "id": 2,
+                "title": "Delivery",
+                "path": "/services/delivery"
+              },
+              {
+                "id": 3,
+                "title": "Operations",
+                "path": "/services/operations"
+              },
+              {
+                "id": 4,
+                "title": "Safri 360°",
+                "path": "/services/360"
+              }
+            ]
+          },
+          {
+            "id": "legalLinks",
+            "title": "Legal",
+            "items": [
+              {
+                "id": 1,
+                "title": "Privacy Policy",
+                "path": "/privacy"
+              },
+              {
+                "id": 2,
+                "title": "Terms & Conditions",
+                "path": "/terms"
+              }
+            ]
+          },
+          {
+            "id": "newsletter",
+            "title": "Newsletter",
+            "subTitle": "Get product updates, restaurant ops tips, and early access to new Safri capabilities.",
+            "inputPlaceholder": "Your email",
+            "buttonText": "Subscribe",
+            "successToast": "Thanks for subscribing — we will keep you posted."
+          },
+          {
+            "id": "social",
+            "followLabel": "Follow us:",
+            "items": [
+              {
+                "id": 1,
+                "name": "X",
+                "link": "https://x.com/safrifoods"
+              },
+              {
+                "id": 2,
+                "name": "Facebook",
+                "link": "https://www.facebook.com/safrifoods"
+              },
+              {
+                "id": 3,
+                "name": "LinkedIn",
+                "link": "https://www.linkedin.com/company/safrifoods"
+              },
+              {
+                "id": 4,
+                "name": "Instagram",
+                "link": "https://www.instagram.com/safrifoods"
+              },
+              {
+                "id": 5,
+                "name": "YouTube",
+                "link": "https://www.youtube.com/@safrifoods"
+              }
+            ]
+          },
+          {
+            "id": "legal",
+            "copyrightText": "Copyright © 2026 Safri. All Rights Reserved.",
+            "privacyUrl": "/privacy",
+            "termsUrl": "/terms",
+            "designedByLabel": "Designed by",
+            "designedByName": "Stash Technologies",
+            "designedByUrl": "https://stashtechnologies.com",
+            "privacyLabel": "Privacy Policy",
+            "termsLabel": "Terms & Conditions"
+          }
+        ]
+      },
+      {
+        "id": "home",
+        "sections": [
+          {
+            "id": "hero",
+            "badge": "Trusted by growing restaurant brands",
+            "title": "Comprehensive Solutions For Restaurant Growth",
+            "titleLines": [
+              "Comprehensive Solutions",
+              "For Restaurant Growth"
+            ],
+            "subTitle": "Amplify restaurant growth with one platform for online ordering, delivery, kitchen ops, and marketing—built for multi-outlet brands.",
+            "primaryCtaText": "Book a demo",
+            "primaryCtaPath": "/contact",
+            "secondaryCtaText": "View solutions",
+            "secondaryCtaPath": "/services",
+            "bgImg": "/uploads/files-1790670086617-hero-bg.webp",
+            "image": "/uploads/files-1790668804015-hero-right.webp",
+            "imageAlt": "Safri restaurant operations collage with orders, delivery, and guest satisfaction",
+            "accentImage": "/uploads/files-1790669635383-hero-cabbage-left.webp",
+            "teaserLabel": "360°",
+            "teaserText": "All delivery apps and restaurant ops in one place with Safri 360°",
+            "teaserCtaText": "Learn more",
+            "teaserCtaPath": "#safri-360"
+          },
+          {
+            "id": "aboutIntro",
+            "label": "What We Do",
+            "titleLines": [
+              "We Enable Restaurants",
+              "Online Growth"
+            ],
+            "body": "Safri combines merchant operations with white-label ordering so restaurants control menus, outlets, kitchens, and guest apps—boosting sales and cutting complexity from one connected system.",
+            "image": "/uploads/files-1790669634149-about-us-left.webp",
+            "sketchImages": {
+              "pizza": "/uploads/files-1790669633619-about-pizza.webp",
+              "leaf": "/uploads/files-1790669633883-about-right.webp",
+              "cabbage": "/uploads/files-1790669635383-hero-cabbage-left.webp"
+            },
+            "calloutTitle": "One connected system",
+            "calloutSubtitle": "Menus, kitchens, and guest apps in sync."
+          },
+          {
+            "id": "stats",
+            "stats": [
+              {
+                "label": "Restaurants On Platform",
+                "value": "120+"
+              },
+              {
+                "label": "Outlets Managed",
+                "value": "350+"
+              },
+              {
+                "label": "Orders Processed Monthly",
+                "value": "80K+"
+              },
+              {
+                "label": "Platform Uptime",
+                "value": "99.9%"
+              }
+            ]
+          },
+          {
+            "id": "restaurantNeeds",
+            "label": "Restaurants today",
+            "title": "What every restaurant needs",
+            "subTitle": "Three pillars that turn your digital presence into real growth.",
+            "items": [
+              {
+                "id": 1,
+                "icon": "bag",
+                "title": "Grow direct sales",
+                "body": "Your own app so customers can order faster and you depend less on third parties.",
+                "image": "/uploads/files-1790668118577-res-1.jpg",
+                "imageAlt": "Grilled chicken platter prepared for restaurant guests"
+              },
+              {
+                "id": 2,
+                "icon": "bolt",
+                "title": "Operational efficiency",
+                "body": "Kitchen, floor, and delivery wired into one signal — speed and accuracy by default.",
+                "image": "/uploads/files-1790668130948-res-2.jpg",
+                "imageAlt": "Chef plating dishes in a busy restaurant kitchen"
+              },
+              {
+                "id": 3,
+                "icon": "megaphone",
+                "title": "Loyalty & guest experience",
+                "body": "Turn passers-by into regulars with smart loyalty and data-driven campaigns.",
+                "image": "/uploads/files-1790668131188-res-3.jpg",
+                "imageAlt": "Barista pouring latte art for a guest experience moment"
+              }
+            ]
+          },
+          {
+            "id": "packages",
+            "label": "Safri Solutions",
+            "title": "One platform. Powerful products.",
+            "subTitle": "Choose your solution. Increase sales. Reduce costs.",
+            "items": [
+              {
+                "id": "online-ordering",
+                "slug": "online-ordering",
+                "tabLabel": "Online Ordering",
+                "dotTone": "accent",
+                "index": "01",
+                "badge": "ORDER",
+                "title": "Modernize your online ordering experience",
+                "body": "Delight guests with branded web and mobile ordering, live menus, and sales analytics—so your restaurant owns the direct channel.",
+                "features": [
+                  "Restaurant management system",
+                  "Mobile-first website",
+                  "Online ordering",
+                  "Sales and analytics"
+                ],
+                "primaryCtaText": "Learn more",
+                "primaryCtaPath": "/services/online-ordering",
+                "secondaryCtaText": "Book a demo",
+                "secondaryCtaPath": "/contact",
+                "image": "/uploads/files-1790668803158-feature-1-laptop.png",
+                "imageOverlay": "/uploads/files-1790668803309-feature-1-menu.png",
+                "imageAlt": "Safri online ordering dashboard on laptop"
+              },
+              {
+                "id": "delivery",
+                "slug": "delivery",
+                "tabLabel": "Delivery",
+                "dotTone": "brand",
+                "index": "02",
+                "badge": "DELIVER",
+                "title": "Modernize your delivery experience",
+                "body": "Run reliable delivery with outlet control, live tracking, and promotions—while keeping online ordering and analytics in the same stack.",
+                "features": [
+                  "Restaurant management system",
+                  "Outlet management",
+                  "Mobile-first website",
+                  "Online ordering",
+                  "Sales and analytics",
+                  "Delivery service",
+                  "Discounts and deals"
+                ],
+                "primaryCtaText": "Learn more",
+                "primaryCtaPath": "/services/delivery",
+                "secondaryCtaText": "Book a demo",
+                "secondaryCtaPath": "/contact",
+                "image": "/uploads/files-1790668803646-feature-3-delivery.webp",
+                "imageAlt": "Safri delivery tracking and rider experience"
+              },
+              {
+                "id": "operations",
+                "slug": "operations",
+                "tabLabel": "Operations",
+                "dotTone": "brandDark",
+                "index": "03",
+                "badge": "OPS",
+                "title": "Run kitchen, floor, and outlets in sync",
+                "body": "Connect kitchen, waiter, and Android apps with delivery and ordering workflows so every ticket moves faster with fewer errors.",
+                "features": [
+                  "Kitchen app",
+                  "Android app",
+                  "Waiter app",
+                  "Restaurant management system",
+                  "Outlet management",
+                  "Mobile-first website",
+                  "Online ordering",
+                  "Sales and analytics",
+                  "Delivery service",
+                  "Discounts and deals"
+                ],
+                "primaryCtaText": "Learn more",
+                "primaryCtaPath": "/services/operations",
+                "secondaryCtaText": "Book a demo",
+                "secondaryCtaPath": "/contact",
+                "image": "/uploads/files-1790668803481-feature-2-branches.webp",
+                "imageAlt": "Safri multi-outlet operations overview"
+              }
+            ]
+          },
+          {
+            "id": "safri360",
+            "label": "Safri 360°",
+            "title": "Modernize your delivery operations with Safri 360°",
+            "body": "Manage delivery app orders, outlets, kitchens, and guest channels from one powerful dashboard—streamline operations, reduce errors, and handle every order with speed.",
+            "ctaText": "See features",
+            "ctaPath": "/services/360",
+            "image": "/uploads/files-1790668803820-feature-4-revenue.webp",
+            "imageAlt": "Safri growth and revenue analytics"
+          },
+          {
+            "id": "mobileApp",
+            "titleLines": [
+              "Your Brand. Your App.",
+              "Your Orders."
+            ],
+            "body": "Ship white-label ordering apps for delivery, pickup, and curbside—in English and Arabic—so guests order under your brand, not a marketplace.",
+            "appStoreUrl": "#",
+            "playStoreUrl": "#",
+            "bgImg": "/uploads/files-1790670087618-mobile-app-bg.webp",
+            "image": "/uploads/files-1790670087856-rider-right.webp",
+            "imageAlt": "Safri delivery rider illustration"
+          },
+          {
+            "id": "modernBusiness",
+            "badge": "Modern F&B",
+            "title": "What A Modern Food Brand Needs",
+            "titleAccent": "Needs",
+            "subTitle": "Three practical pillars that turn your digital presence into steadier restaurant revenue.",
+            "items": [
+              {
+                "id": 1,
+                "title": "Own More Direct Orders",
+                "body": "Launch a branded ordering experience guests return to—less marketplace dependency, clearer margins, and a channel your team controls from menu to checkout.",
+                "imageAlt": "Safri branded ordering phone with delivery pickup",
+                "imageLeft": false,
+                "panelTone": "soft",
+                "points": [
+                  "Branded guest checkout on web and mobile",
+                  "Lower marketplace commission drag",
+                  "Menus and pricing you control in real time"
+                ],
+                "image": "/uploads/files-1790670262450-fb-1.webp"
+              },
+              {
+                "id": 2,
+                "title": "Turn Orders Into Clear Insights",
+                "body": "See what sells, which outlets perform, and where guests drop off—then use that signal to tighten menus, staffing, and promotions without guessing.",
+                "image": "/uploads/files-1790668802774-collect-data.webp",
+                "imageAlt": "Illustration of restaurant data flowing into actionable insights",
+                "imageLeft": true,
+                "panelTone": "soft",
+                "points": [
+                  "Outlet-level sales and demand signals",
+                  "Spot drop-offs before they become trends",
+                  "Staffing and promo decisions backed by data"
+                ]
+              },
+              {
+                "id": 3,
+                "title": "Grow Reach Without Losing Control",
+                "body": "Extend ordering across outlets and guest channels while keeping menus, tickets, and fulfillment aligned—so expansion does not multiply operational chaos.",
+                "image": "/uploads/files-1790668803013-expand-digital.webp",
+                "imageAlt": "Illustration of targeted restaurant growth and guest engagement",
+                "imageLeft": false,
+                "panelTone": "soft",
+                "points": [
+                  "Consistent menus across every channel",
+                  "Fulfillment that stays aligned as you expand",
+                  "One operating picture for multi-outlet growth"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "contactForm",
+            "label": "Contact Us",
+            "title": "Partner With Safri",
+            "subTitle": "Tell us about your restaurants and outlets. We will map the right package—Online Ordering, Delivery, Operations, or Safri 360°.",
+            "submitLabel": "Register Your Restaurant",
+            "successToast": "Thanks — our team will reach out about your restaurant shortly.",
+            "fields": [
+              {
+                "name": "fullName",
+                "label": "Full name",
+                "placeholder": "Full name",
+                "required": true
+              },
+              {
+                "name": "mobile",
+                "label": "Mobile number",
+                "placeholder": "Mobile number",
+                "required": true
+              },
+              {
+                "name": "date",
+                "label": "Preferred demo date",
+                "placeholder": "Preferred demo date",
+                "required": false
+              },
+              {
+                "name": "email",
+                "label": "Work email",
+                "placeholder": "Work email",
+                "required": true
+              },
+              {
+                "name": "restaurantName",
+                "label": "Restaurant / brand name",
+                "placeholder": "Restaurant or brand name",
+                "required": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "about",
+        "sections": [
+          {
+            "id": "hero",
+            "label": "About Us",
+            "titleLines": [
+              "Built For The People Who Power",
+              "Great Food Businesses."
+            ],
+            "body": "Operators need clarity on every ticket, outlet, and channel. Safri gives restaurant teams one place to manage menus, orders, kitchen flow, and guest apps—with analytics to grow confidently."
+          },
+          {
+            "id": "whoWeAre",
+            "label": "Who We Are",
+            "titleLines": [
+              "We're Building The Smarter",
+              "Side Of Food Business."
+            ],
+            "callout": "Menus, modifiers, outlet pricing, kitchen tickets, and fulfillment—designed as one connected workflow instead of a pile of disconnected apps.",
+            "body": "Safri is a restaurant technology company focused on the people who run food brands every day. We connect merchant operations and white-label guest ordering so teams work smarter, serve faster, and grow without unnecessary complexity.",
+            "image": "/uploads/files-1790669634149-about-us-left.webp",
+            "sketchImages": {
+              "pizza": "/uploads/files-1790669633619-about-pizza.webp",
+              "leaf": "/uploads/files-1790669633883-about-right.webp",
+              "cabbage": "/uploads/files-1790669635383-hero-cabbage-left.webp"
+            }
+          },
+          {
+            "id": "ourValues",
+            "label": "Our Values",
+            "body": "We build for real restaurant pace—clear workflows, reliable fulfillment, and technology that stays out of the way when the dinner rush hits.",
+            "items": [
+              {
+                "id": 1,
+                "title": "Our Vision",
+                "subTitle": "To be the operating system food brands trust to own their digital channel and run multi-outlet operations with confidence.",
+                "icon": "/uploads/files-1790669634505-about-vision-icon.webp"
+              },
+              {
+                "id": 2,
+                "title": "Our Mission",
+                "subTitle": "Empower restaurants with practical technology that simplifies menus, orders, kitchens, and delivery—so teams serve better and grow further.",
+                "icon": "/uploads/files-1790669633309-about-mission-icon.webp"
+              }
+            ]
+          },
+          {
+            "id": "growBanner",
+            "image": "/uploads/files-1790669634952-pasta.webp",
+            "imageAlt": "Fresh pasta prepared in a restaurant kitchen"
+          },
+          {
+            "id": "operations",
+            "title": "Great Food Deserves Great Operations.",
+            "body": "Behind every successful food brand are outlets, menus, tickets, riders, and guest apps that must stay in sync. Safri brings those moving parts together so teams get control and clarity.",
+            "callout": "Practical technology for operators who need speed on the floor and visibility across the brand.",
+            "image": "/uploads/files-1790669634149-about-us-left.webp",
+            "items": [
+              {
+                "id": 1,
+                "title": "Smart By Design",
+                "subTitle": "Complex restaurant workflows—menus, attributes, taxes, tickets—made faster and clearer for everyday staff."
+              },
+              {
+                "id": 2,
+                "title": "Growth Together",
+                "subTitle": "From your first outlet to a multi-branch brand, Safri scales with your menus, fulfillment types, and team structure."
+              },
+              {
+                "id": 3,
+                "title": "Future Ready",
+                "subTitle": "Built for white-label apps, bilingual guest experiences, and ops that evolve as your brand expands."
+              }
+            ]
+          },
+          {
+            "id": "contactForm",
+            "label": "Contact Us",
+            "title": "Partner With Safri",
+            "subTitle": "Ready to simplify restaurant operations? Share your brand details and we will walk you through the right package.",
+            "submitLabel": "Register Your Restaurant",
+            "successToast": "Thanks — our team will reach out about your restaurant shortly."
+          }
+        ]
+      },
+      {
+        "id": "services",
+        "sections": [
+          {
+            "id": "serveBetterHero",
+            "title": "One platform. Powerful products.",
+            "body": "Choose Online Ordering, Delivery, Operations, or Safri 360°—each package builds on the last so you can grow without switching systems.",
+            "primaryCtaText": "Book a demo",
+            "primaryCtaPath": "/contact",
+            "secondaryCtaText": "View packages",
+            "secondaryCtaPath": "#packages",
+            "images": {
+              "laptop": "/uploads/files-1790668803158-feature-1-laptop.png",
+              "menu": "/uploads/files-1790668803309-feature-1-menu.png"
+            }
+          },
+          {
+            "id": "packages",
+            "label": "Safri Solutions",
+            "title": "Choose your solution",
+            "subTitle": "Increase sales. Reduce costs. Scale outlets with confidence.",
+            "items": [
+              {
+                "id": "online-ordering",
+                "slug": "online-ordering",
+                "tabLabel": "Online Ordering",
+                "dotTone": "accent",
+                "index": "01",
+                "badge": "ORDER",
+                "title": "Modernize your online ordering experience",
+                "body": "Delight guests with branded web and mobile ordering, live menus, and sales analytics—so your restaurant owns the direct channel.",
+                "features": [
+                  "Restaurant management system",
+                  "Mobile-first website",
+                  "Online ordering",
+                  "Sales and analytics"
+                ],
+                "primaryCtaText": "Learn more",
+                "primaryCtaPath": "/services/online-ordering",
+                "secondaryCtaText": "Book a demo",
+                "secondaryCtaPath": "/contact",
+                "image": "/uploads/files-1790668803158-feature-1-laptop.png",
+                "imageOverlay": "/uploads/files-1790668803309-feature-1-menu.png",
+                "imageAlt": "Safri online ordering dashboard on laptop"
+              },
+              {
+                "id": "delivery",
+                "slug": "delivery",
+                "tabLabel": "Delivery",
+                "dotTone": "brand",
+                "index": "02",
+                "badge": "DELIVER",
+                "title": "Modernize your delivery experience",
+                "body": "Run reliable delivery with outlet control, live tracking, and promotions—while keeping online ordering and analytics in the same stack.",
+                "features": [
+                  "Restaurant management system",
+                  "Outlet management",
+                  "Mobile-first website",
+                  "Online ordering",
+                  "Sales and analytics",
+                  "Delivery service",
+                  "Discounts and deals"
+                ],
+                "primaryCtaText": "Learn more",
+                "primaryCtaPath": "/services/delivery",
+                "secondaryCtaText": "Book a demo",
+                "secondaryCtaPath": "/contact",
+                "image": "/uploads/files-1790668803646-feature-3-delivery.webp",
+                "imageAlt": "Safri delivery tracking and rider experience"
+              },
+              {
+                "id": "operations",
+                "slug": "operations",
+                "tabLabel": "Operations",
+                "dotTone": "brandDark",
+                "index": "03",
+                "badge": "OPS",
+                "title": "Run kitchen, floor, and outlets in sync",
+                "body": "Connect kitchen, waiter, and Android apps with delivery and ordering workflows so every ticket moves faster with fewer errors.",
+                "features": [
+                  "Kitchen app",
+                  "Android app",
+                  "Waiter app",
+                  "Restaurant management system",
+                  "Outlet management",
+                  "Mobile-first website",
+                  "Online ordering",
+                  "Sales and analytics",
+                  "Delivery service",
+                  "Discounts and deals"
+                ],
+                "primaryCtaText": "Learn more",
+                "primaryCtaPath": "/services/operations",
+                "secondaryCtaText": "Book a demo",
+                "secondaryCtaPath": "/contact",
+                "image": "/uploads/files-1790668803481-feature-2-branches.webp",
+                "imageAlt": "Safri multi-outlet operations overview"
+              }
+            ]
+          },
+          {
+            "id": "safri360",
+            "label": "Safri 360°",
+            "title": "Modernize your delivery operations with Safri 360°",
+            "body": "Manage delivery app orders, outlets, kitchens, and guest channels from one powerful dashboard—streamline operations, reduce errors, and handle every order with speed.",
+            "ctaText": "See features",
+            "ctaPath": "/services/360",
+            "image": "/uploads/files-1790668803820-feature-4-revenue.webp",
+            "imageAlt": "Safri growth and revenue analytics"
+          },
+          {
+            "id": "contactForm",
+            "label": "Contact Us",
+            "title": "Partner With Safri",
+            "subTitle": "Tell us which package fits your restaurants—Online Ordering, Delivery, Operations, or Safri 360°.",
+            "submitLabel": "Register Your Restaurant",
+            "successToast": "Thanks — our team will reach out about your restaurant shortly."
+          }
+        ]
+      },
+      {
+        "id": "service-online-ordering",
+        "sections": [
+          {
+            "id": "theme",
+            "accent": "#F57300",
+            "soft": "#FFF4EB",
+            "panel": "#FFE4CC",
+            "ctaFrom": "#F57300",
+            "ctaTo": "#D56400"
+          },
+          {
+            "id": "hero",
+            "label": "Online Ordering",
+            "badge": "ORDER",
+            "title": "Modernize your online ordering experience with Safri",
+            "titleAccent": "Safri",
+            "body": "Give guests a branded path to order—while your team keeps menus, availability, and sales visibility in one calm workflow.",
+            "primaryCtaText": "Contact us",
+            "primaryCtaPath": "/contact",
+            "secondaryCtaText": "See outcomes",
+            "secondaryCtaPath": "#built-for",
+            "image": "/uploads/files-1790668803158-feature-1-laptop.png",
+            "imageOverlay": "/uploads/files-1790668803309-feature-1-menu.png",
+            "imageAlt": "Safri online ordering dashboard on laptop"
+          },
+          {
+            "id": "intro",
+            "label": "For modern brands",
+            "title": "Built for restaurants that want guests ordering on their terms",
+            "body": "When the direct channel is clear, teams spend less time chasing marketplace noise and more time serving profitable demand."
+          },
+          {
+            "id": "value",
+            "label": "Why this package",
+            "title": "Adding measurable value to your business",
+            "titleAccent": "to your business",
+            "body": "Online Ordering is about stronger guest relationships—not another disconnected storefront bolted onto your ops.",
+            "ctaText": "Get started",
+            "ctaPath": "/contact",
+            "cards": [
+              {
+                "id": 1,
+                "title": "Brand-first checkout",
+                "body": "Guests stay in your experience from browse to pay—so loyalty accrues to you, not a marketplace."
+              },
+              {
+                "id": 2,
+                "title": "Mobile-ready journeys",
+                "body": "Ordering paths feel native on phones, where most guests decide and convert."
+              },
+              {
+                "id": 3,
+                "title": "Clearer demand signals",
+                "body": "See which items and dayparts pull volume so menus and staffing stay intentional."
+              },
+              {
+                "id": 4,
+                "title": "Less channel friction",
+                "body": "Reduce the juggling of one-off tools that slow menu updates and confuse staff."
+              }
+            ]
+          },
+          {
+            "id": "builtFor",
+            "label": "Operator outcomes",
+            "title": "Built for teams that want steadier direct growth",
+            "titleAccent": "direct growth",
+            "items": [
+              {
+                "id": 1,
+                "title": "Fewer abandoned guest journeys",
+                "body": "A focused ordering flow keeps guests moving instead of bouncing between apps."
+              },
+              {
+                "id": 2,
+                "title": "Stronger repeat ordering habits",
+                "body": "Familiar branding and saved preferences encourage guests to come back directly."
+              },
+              {
+                "id": 3,
+                "title": "Faster menu decisions",
+                "body": "Live availability and sales cues help managers adjust without waiting on weekly reports."
+              },
+              {
+                "id": 4,
+                "title": "Cleaner guest communication",
+                "body": "Order status stays tied to your brand experience, not a third-party inbox."
+              },
+              {
+                "id": 5,
+                "title": "Healthier contribution margins",
+                "body": "Direct volume reduces the commission drag that creeps into marketplace-heavy mixes."
+              },
+              {
+                "id": 6,
+                "title": "Room to expand later",
+                "body": "Start with ordering clarity, then layer delivery and ops when your brand is ready."
+              }
+            ]
+          },
+          {
+            "id": "stats",
+            "title": "Trusted by growing restaurant brands",
+            "titleAccent": "restaurant brands",
+            "items": [
+              {
+                "id": 1,
+                "value": "2x",
+                "label": "Potential lift in direct order share"
+              },
+              {
+                "id": 2,
+                "value": "80K+",
+                "label": "Orders processed monthly on platform"
+              },
+              {
+                "id": 3,
+                "value": "99.9%",
+                "label": "Platform uptime target"
+              }
+            ]
+          },
+          {
+            "id": "explore",
+            "title": "Explore other Safri packages",
+            "items": [
+              {
+                "id": "delivery",
+                "title": "Delivery",
+                "badge": "DELIVER",
+                "path": "/services/delivery",
+                "body": "Keep outlets, riders, and promotions moving in one flow."
+              },
+              {
+                "id": "operations",
+                "title": "Operations",
+                "badge": "OPS",
+                "path": "/services/operations",
+                "body": "Align kitchen, floor, and outlet teams during every rush."
+              },
+              {
+                "id": "360",
+                "title": "Safri 360°",
+                "badge": "360°",
+                "path": "/services/360",
+                "body": "Connect ordering, delivery, ops, and marketing in one stack."
+              }
+            ]
+          },
+          {
+            "id": "ctaBanner",
+            "titleLines": [
+              "Increase sales",
+              "Decrease cost"
+            ],
+            "ctaText": "Book a demo",
+            "ctaPath": "/contact",
+            "bgImg": "/uploads/files-1790668233902-bg-sales.jpg",
+            "subTitle": "Start free today — set up in under 5 minutes.",
+            "secondaryCtaText": "See packages",
+            "secondaryCtaPath": "/services",
+            "body": "Own your ordering channel with menus, analytics, and guest apps that keep revenue on your brand.",
+            "points": [
+              "No card required",
+              "Instant setup",
+              "Arabic support"
+            ]
+          },
+          {
+            "id": "contactForm",
+            "label": "Contact Us",
+            "title": "Start with Online Ordering",
+            "subTitle": "Tell us about your brand and we will show how a direct ordering channel fits your outlets.",
+            "submitLabel": "Register Your Restaurant",
+            "successToast": "Thanks — our team will reach out about your restaurant shortly."
+          }
+        ]
+      },
+      {
+        "id": "service-delivery",
+        "sections": [
+          {
+            "id": "theme",
+            "accent": "#2F6FED",
+            "soft": "#EEF4FF",
+            "panel": "#D9E6FF",
+            "ctaFrom": "#2F6FED",
+            "ctaTo": "#1E4FC7"
+          },
+          {
+            "id": "hero",
+            "label": "Delivery",
+            "badge": "DELIVER",
+            "title": "Modernize your delivery experience with Safri",
+            "titleAccent": "Safri",
+            "body": "Move from reactive dispatch to a delivery rhythm your outlets can trust—tracking, promos, and ordering still in one stack.",
+            "primaryCtaText": "Contact us",
+            "primaryCtaPath": "/contact",
+            "secondaryCtaText": "See outcomes",
+            "secondaryCtaPath": "#built-for",
+            "image": "/uploads/files-1790668803646-feature-3-delivery.webp",
+            "imageAlt": "Safri delivery tracking and rider experience"
+          },
+          {
+            "id": "intro",
+            "label": "Fulfillment focus",
+            "title": "Built for brands that treat delivery as an operations craft",
+            "body": "Reliable handoffs and outlet control turn delivery from a firefight into a repeatable growth channel."
+          },
+          {
+            "id": "value",
+            "label": "Why Delivery",
+            "title": "Adding measurable value to your business",
+            "titleAccent": "to your business",
+            "body": "Delivery should raise volume without raising confusion—across branches, riders, and guest expectations.",
+            "ctaText": "Learn more",
+            "ctaPath": "/contact",
+            "cards": [
+              {
+                "id": 1,
+                "title": "Outlet-aware fulfillment",
+                "body": "Route demand with branch context so each kitchen prepares what it can actually deliver well."
+              },
+              {
+                "id": 2,
+                "title": "Live status for guests",
+                "body": "Transparent progress reduces “where is my order?” calls that stall the floor."
+              },
+              {
+                "id": 3,
+                "title": "Promotion lift with control",
+                "body": "Run deals that convert without breaking prep capacity or ticket accuracy."
+              },
+              {
+                "id": 4,
+                "title": "One stack, fewer gaps",
+                "body": "Ordering and delivery stay connected so staff are not reconciling two systems mid-rush."
+              }
+            ]
+          },
+          {
+            "id": "builtFor",
+            "label": "Operator outcomes",
+            "title": "Built for delivery teams that need calm under pressure",
+            "titleAccent": "calm under pressure",
+            "items": [
+              {
+                "id": 1,
+                "title": "Shorter handoff windows",
+                "body": "Clearer dispatch cues help food leave the pass while it is still at peak quality."
+              },
+              {
+                "id": 2,
+                "title": "Fewer address and timing misses",
+                "body": "Structured fulfillment details cut the costly re-deliveries that hurt margins."
+              },
+              {
+                "id": 3,
+                "title": "Better promo predictability",
+                "body": "Know which deals drive profitable volume instead of empty spikes."
+              },
+              {
+                "id": 4,
+                "title": "Multi-branch consistency",
+                "body": "Standards travel with the brand even when each outlet has different peak patterns."
+              },
+              {
+                "id": 5,
+                "title": "Guest trust that compounds",
+                "body": "On-time, visible delivery builds the reputation that brings the next order back."
+              },
+              {
+                "id": 6,
+                "title": "A path into deeper ops",
+                "body": "When delivery is stable, kitchen and waiter workflows become the next natural upgrade."
+              }
+            ]
+          },
+          {
+            "id": "stats",
+            "title": "Trusted by multi-outlet operators",
+            "titleAccent": "multi-outlet operators",
+            "items": [
+              {
+                "id": 1,
+                "value": "350+",
+                "label": "Outlets managed on platform"
+              },
+              {
+                "id": 2,
+                "value": "80K+",
+                "label": "Orders processed monthly"
+              },
+              {
+                "id": 3,
+                "value": "99.9%",
+                "label": "Platform uptime target"
+              }
+            ]
+          },
+          {
+            "id": "explore",
+            "title": "Explore other Safri packages",
+            "items": [
+              {
+                "id": "online-ordering",
+                "title": "Online Ordering",
+                "badge": "ORDER",
+                "path": "/services/online-ordering",
+                "body": "Own the direct channel with branded web and mobile ordering."
+              },
+              {
+                "id": "operations",
+                "title": "Operations",
+                "badge": "OPS",
+                "path": "/services/operations",
+                "body": "Align kitchen, floor, and outlet teams during every rush."
+              },
+              {
+                "id": "360",
+                "title": "Safri 360°",
+                "badge": "360°",
+                "path": "/services/360",
+                "body": "Connect ordering, delivery, ops, and marketing in one stack."
+              }
+            ]
+          },
+          {
+            "id": "ctaBanner",
+            "titleLines": [
+              "Increase sales",
+              "Decrease cost"
+            ],
+            "ctaText": "Book a demo",
+            "ctaPath": "/contact",
+            "bgImg": "/uploads/files-1790668233902-bg-sales.jpg",
+            "subTitle": "Start free today — set up in under 5 minutes.",
+            "secondaryCtaText": "See packages",
+            "secondaryCtaPath": "/services",
+            "body": "Reliable delivery and outlet control that lifts volume without adding operational chaos.",
+            "points": [
+              "Live tracking",
+              "Outlet ready",
+              "Promo control"
+            ]
+          },
+          {
+            "id": "contactForm",
+            "label": "Contact Us",
+            "title": "Scale with Delivery",
+            "subTitle": "Share your delivery and outlet needs—we will walk you through the right setup.",
+            "submitLabel": "Register Your Restaurant",
+            "successToast": "Thanks — our team will reach out about your restaurant shortly."
+          }
+        ]
+      },
+      {
+        "id": "service-operations",
+        "sections": [
+          {
+            "id": "theme",
+            "accent": "#C44B2F",
+            "soft": "#FFF1EC",
+            "panel": "#FFDCD2",
+            "ctaFrom": "#C44B2F",
+            "ctaTo": "#9E3722"
+          },
+          {
+            "id": "hero",
+            "label": "Operations",
+            "badge": "OPS",
+            "title": "Run kitchen, floor, and outlets in sync with Safri",
+            "titleAccent": "Safri",
+            "body": "Connect the people who cook, serve, and fulfill—so rush hour feels coordinated instead of chaotic.",
+            "primaryCtaText": "Contact us",
+            "primaryCtaPath": "/contact",
+            "secondaryCtaText": "See outcomes",
+            "secondaryCtaPath": "#built-for",
+            "image": "/uploads/files-1790668803481-feature-2-branches.webp",
+            "imageAlt": "Safri multi-outlet operations overview"
+          },
+          {
+            "id": "intro",
+            "label": "Service rhythm",
+            "title": "Built for operators who win or lose in the dinner rush",
+            "body": "When kitchen and floor share the same truth, tickets move faster and guests feel the difference."
+          },
+          {
+            "id": "value",
+            "label": "Why Operations",
+            "title": "Adding measurable value to your business",
+            "titleAccent": "to your business",
+            "body": "Operations is where speed, accuracy, and staff confidence meet—especially across multiple outlets.",
+            "ctaText": "Get started",
+            "ctaPath": "/contact",
+            "cards": [
+              {
+                "id": 1,
+                "title": "Ticket clarity under load",
+                "body": "Prep stations see what matters next, reducing the rework that appears when volume spikes."
+              },
+              {
+                "id": 2,
+                "title": "Floor and kitchen alignment",
+                "body": "Service staff and cooks work from the same order state instead of guesswork."
+              },
+              {
+                "id": 3,
+                "title": "Outlet-ready workflows",
+                "body": "Standards hold as you add branches—without reinventing the rush every time."
+              },
+              {
+                "id": 4,
+                "title": "Fewer tools for staff",
+                "body": "Reduce the app-switching that slows training and creates avoidable mistakes."
+              }
+            ]
+          },
+          {
+            "id": "builtFor",
+            "label": "Operator outcomes",
+            "title": "Built for shifts that need speed without drama",
+            "titleAccent": "without drama",
+            "items": [
+              {
+                "id": 1,
+                "title": "Faster recovery during peaks",
+                "body": "Clear priorities help teams bounce back when the board fills up."
+              },
+              {
+                "id": 2,
+                "title": "Fewer wrong-item tickets",
+                "body": "Shared order context cuts the costly remakes that frustrate guests and staff."
+              },
+              {
+                "id": 3,
+                "title": "Smoother staff onboarding",
+                "body": "Consistent flows mean new team members ramp with less tribal knowledge."
+              },
+              {
+                "id": 4,
+                "title": "Better outlet visibility",
+                "body": "Managers spot bottlenecks across locations before they become tonight’s crisis."
+              },
+              {
+                "id": 5,
+                "title": "Delivery that stays connected",
+                "body": "Fulfillment keeps pace with kitchen reality instead of racing ahead of it."
+              },
+              {
+                "id": 6,
+                "title": "Ready for full-stack growth",
+                "body": "When ops are steady, marketing and 360° capabilities compound instead of colliding."
+              }
+            ]
+          },
+          {
+            "id": "stats",
+            "title": "Trusted by busy restaurant teams",
+            "titleAccent": "restaurant teams",
+            "items": [
+              {
+                "id": 1,
+                "value": "120+",
+                "label": "Restaurants on platform"
+              },
+              {
+                "id": 2,
+                "value": "350+",
+                "label": "Outlets managed"
+              },
+              {
+                "id": 3,
+                "value": "99.9%",
+                "label": "Platform uptime target"
+              }
+            ]
+          },
+          {
+            "id": "explore",
+            "title": "Explore other Safri packages",
+            "items": [
+              {
+                "id": "online-ordering",
+                "title": "Online Ordering",
+                "badge": "ORDER",
+                "path": "/services/online-ordering",
+                "body": "Own the direct channel with branded web and mobile ordering."
+              },
+              {
+                "id": "delivery",
+                "title": "Delivery",
+                "badge": "DELIVER",
+                "path": "/services/delivery",
+                "body": "Keep outlets, riders, and promotions moving in one flow."
+              },
+              {
+                "id": "360",
+                "title": "Safri 360°",
+                "badge": "360°",
+                "path": "/services/360",
+                "body": "Connect ordering, delivery, ops, and marketing in one stack."
+              }
+            ]
+          },
+          {
+            "id": "ctaBanner",
+            "titleLines": [
+              "Increase sales",
+              "Decrease cost"
+            ],
+            "ctaText": "Book a demo",
+            "ctaPath": "/contact",
+            "bgImg": "/uploads/files-1790668233902-bg-sales.jpg",
+            "subTitle": "Start free today — set up in under 5 minutes.",
+            "secondaryCtaText": "See packages",
+            "secondaryCtaPath": "/services",
+            "body": "Kitchen, floor, and outlets aligned so every rush stays fast, accurate, and calm.",
+            "points": [
+              "Kitchen sync",
+              "Floor clarity",
+              "Multi-outlet"
+            ]
+          },
+          {
+            "id": "contactForm",
+            "label": "Contact Us",
+            "title": "Run better with Operations",
+            "subTitle": "Tell us how your kitchen and outlets work today—we will map the Operations package to your rush.",
+            "submitLabel": "Register Your Restaurant",
+            "successToast": "Thanks — our team will reach out about your restaurant shortly."
+          }
+        ]
+      },
+      {
+        "id": "service-360",
+        "sections": [
+          {
+            "id": "theme",
+            "accent": "#0F8A8A",
+            "soft": "#E8F7F7",
+            "panel": "#C8EBEB",
+            "ctaFrom": "#0F8A8A",
+            "ctaTo": "#0A6B6B"
+          },
+          {
+            "id": "hero",
+            "label": "Safri 360°",
+            "badge": "360°",
+            "title": "Modernize your restaurant growth with Safri 360°",
+            "titleAccent": "Safri 360°",
+            "body": "Bring ordering, delivery, operations, and marketing into one operating picture—so growth does not mean more fragmented tools.",
+            "primaryCtaText": "Contact us",
+            "primaryCtaPath": "/contact",
+            "secondaryCtaText": "See outcomes",
+            "secondaryCtaPath": "#built-for",
+            "image": "/uploads/files-1790668803820-feature-4-revenue.webp",
+            "imageAlt": "Safri growth and revenue analytics"
+          },
+          {
+            "id": "intro",
+            "label": "Full picture",
+            "title": "Built for brands ready to run the whole guest journey",
+            "body": "Safri 360° is for operators who want one platform that scales with every channel—not a patchwork of short-term fixes."
+          },
+          {
+            "id": "value",
+            "label": "Why Safri 360°",
+            "title": "Everything your growth team needs in one place",
+            "titleAccent": "in one place",
+            "body": "Unify the work of selling, fulfilling, operating, and marketing so decisions stay grounded in real restaurant performance.",
+            "ctaText": "Get started",
+            "ctaPath": "/contact",
+            "cards": [
+              {
+                "id": 1,
+                "title": "Unified commercial view",
+                "body": "See demand, fulfillment, and outlet health together instead of stitching weekly exports."
+              },
+              {
+                "id": 2,
+                "title": "Campaigns tied to reality",
+                "body": "Marketing actions connect to what kitchens and delivery can actually handle."
+              },
+              {
+                "id": 3,
+                "title": "Lower tool sprawl",
+                "body": "Replace overlapping vendors with one stack your managers already understand."
+              },
+              {
+                "id": 4,
+                "title": "Scale without re-platforming",
+                "body": "Add outlets and channels without restarting your technology story each year."
+              }
+            ]
+          },
+          {
+            "id": "builtFor",
+            "label": "Operator outcomes",
+            "title": "Built for Safri 360° operators who want compounding growth",
+            "titleAccent": "compounding growth",
+            "items": [
+              {
+                "id": 1,
+                "title": "One source of operational truth",
+                "body": "Leaders stop arguing over which dashboard is right and start acting faster."
+              },
+              {
+                "id": 2,
+                "title": "Marketing that respects capacity",
+                "body": "Promotions lift sales without flooding outlets beyond what they can fulfill well."
+              },
+              {
+                "id": 3,
+                "title": "Cross-outlet benchmarking",
+                "body": "Compare performance patterns and spread what works across the brand."
+              },
+              {
+                "id": 4,
+                "title": "Lower coordination cost",
+                "body": "Teams spend less time reconciling systems and more time serving guests."
+              },
+              {
+                "id": 5,
+                "title": "Clearer path from insight to action",
+                "body": "Analytics sit next to the workflows that can change tonight’s results."
+              },
+              {
+                "id": 6,
+                "title": "A platform story investors understand",
+                "body": "Show a coherent digital operating system—not a fragile collection of apps."
+              }
+            ]
+          },
+          {
+            "id": "stats",
+            "title": "Trusted by ambitious food brands",
+            "titleAccent": "food brands",
+            "items": [
+              {
+                "id": 1,
+                "value": "120+",
+                "label": "Restaurants on platform"
+              },
+              {
+                "id": 2,
+                "value": "80K+",
+                "label": "Orders processed monthly"
+              },
+              {
+                "id": 3,
+                "value": "99%",
+                "label": "Partner satisfaction focus"
+              }
+            ]
+          },
+          {
+            "id": "explore",
+            "title": "Explore other Safri packages",
+            "items": [
+              {
+                "id": "online-ordering",
+                "title": "Online Ordering",
+                "badge": "ORDER",
+                "path": "/services/online-ordering",
+                "body": "Own the direct channel with branded web and mobile ordering."
+              },
+              {
+                "id": "delivery",
+                "title": "Delivery",
+                "badge": "DELIVER",
+                "path": "/services/delivery",
+                "body": "Keep outlets, riders, and promotions moving in one flow."
+              },
+              {
+                "id": "operations",
+                "title": "Operations",
+                "badge": "OPS",
+                "path": "/services/operations",
+                "body": "Align kitchen, floor, and outlet teams during every rush."
+              }
+            ]
+          },
+          {
+            "id": "ctaBanner",
+            "titleLines": [
+              "Increase sales",
+              "Decrease cost"
+            ],
+            "ctaText": "Book a demo",
+            "ctaPath": "/contact",
+            "bgImg": "/uploads/files-1790668233902-bg-sales.jpg",
+            "subTitle": "Start free today — set up in under 5 minutes.",
+            "secondaryCtaText": "See packages",
+            "secondaryCtaPath": "/services",
+            "body": "Ordering, delivery, operations, and marketing in one stack — grow without tool sprawl.",
+            "points": [
+              "One platform",
+              "Unified insights",
+              "Full package"
+            ]
+          },
+          {
+            "id": "contactForm",
+            "label": "Contact Us",
+            "title": "Grow with Safri 360°",
+            "subTitle": "Ready for the full platform? Share your brand details and we will map Safri 360° to your outlets.",
+            "submitLabel": "Register Your Restaurant",
+            "successToast": "Thanks — our team will reach out about your restaurant shortly."
+          }
+        ]
+      },
+      {
+        "id": "contact",
+        "sections": [
+          {
+            "id": "hero",
+            "title": "We're Here To Help You Serve Better",
+            "body": "Connect with our team to see how Online Ordering, Delivery, Operations, or Safri 360° can fit your restaurants.",
+            "primaryCtaText": "Book a demo",
+            "primaryCtaPath": "#contact",
+            "secondaryCtaText": "View solutions",
+            "secondaryCtaPath": "/services",
+            "images": {
+              "laptop": "/uploads/files-1790668803158-feature-1-laptop.png",
+              "menu": "/uploads/files-1790668803309-feature-1-menu.png"
+            }
+          },
+          {
+            "id": "channels",
+            "title": "We're Building The Smarter Side Of Food Business.",
+            "body": "Whether you need a product walkthrough, a quick WhatsApp answer, or a longer sales conversation, pick the channel that fits your team.",
+            "items": [
+              {
+                "id": 1,
+                "key": "demo",
+                "title": "Book A Sales Demo",
+                "body": "Tell us about your restaurants and outlets—we will walk you through the right Safri package.",
+                "cta": "Open the form",
+                "path": "#contact",
+                "icon": "calendar"
+              },
+              {
+                "id": 2,
+                "key": "whatsapp",
+                "title": "Chat On WhatsApp",
+                "body": "Have a quick question about packages or onboarding? Message us during business hours.",
+                "cta": "Open WhatsApp",
+                "path": "https://wa.me/966500000000",
+                "icon": "chat"
+              },
+              {
+                "id": 3,
+                "key": "email",
+                "title": "Email Sales",
+                "body": "Prefer email? Share your brand details and we will respond within one business day.",
+                "cta": "sales@safri.food",
+                "path": "mailto:sales@safri.food",
+                "icon": "email"
+              }
+            ]
+          },
+          {
+            "id": "faq",
+            "label": "FAQ",
+            "title": "Everything You Need To Know",
+            "subTitle": "Quick answers about Safri packages, setup, multi-outlet operations, and restaurant ordering apps.",
+            "image": "/uploads/files-1790668803646-feature-3-delivery.webp",
+            "leafImage": "/uploads/files-1790669635735-leaf-left.webp",
+            "items": [
+              {
+                "id": 1,
+                "question": "What is Safri?",
+                "answer": "Safri is a restaurant technology platform for online ordering, delivery, kitchen and waiter ops, and marketing—packaged as Online Ordering, Delivery, Operations, and Safri 360°."
+              },
+              {
+                "id": 2,
+                "question": "How do the packages differ?",
+                "answer": "Online Ordering covers RMS, mobile-first website, ordering, and analytics. Delivery adds outlets, delivery service, and deals. Operations adds kitchen, Android, and waiter apps. Safri 360° includes everything plus marketing."
+              },
+              {
+                "id": 3,
+                "question": "Does Safri support white-label apps?",
+                "answer": "Yes. Each restaurant can ship under its own brand identity while menus, outlets, and orders still run on Safri."
+              },
+              {
+                "id": 4,
+                "question": "Which fulfillment types are supported?",
+                "answer": "Safri supports delivery, pickup, dine-in, and curbside flows so guests can order the way your outlets operate."
+              },
+              {
+                "id": 5,
+                "question": "Can my staff learn Safri quickly?",
+                "answer": "Yes. Day-to-day workflows—menus, tickets, order status, and outlet settings—are designed for restaurant teams under real service pressure."
+              },
+              {
+                "id": 6,
+                "question": "Is Safri available in more than one language?",
+                "answer": "Guest-facing apps support English and Arabic (including RTL), which helps brands serve bilingual markets."
+              }
+            ]
+          },
+          {
+            "id": "contactForm",
+            "label": "Contact Us",
+            "title": "Partner With Safri",
+            "subTitle": "Register your restaurant to start a conversation about the right package for your brand.",
+            "submitLabel": "Register Your Restaurant",
+            "successToast": "Thanks — our team will reach out about your restaurant shortly."
+          }
+        ]
+      },
+      {
+        "id": "privacy",
+        "sections": [
+          {
+            "id": "document",
+            "title": "Privacy Policy",
+            "effectiveDate": "Effective date: 7 August 2026",
+            "lastUpdated": "Last updated: 7 August 2026",
+            "chapters": [
+              {
+                "id": "1",
+                "heading": "1. Introduction",
+                "level": 2,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "This Privacy Policy explains how Safri (“Safri,” “we,” “us,” or “our”), collects, uses, discloses, stores, and protects personal data when you use the Safri website, applications, marketplace, restaurant-branded ordering channels powered by Safri, merchant dashboards, integrations, customer support, and related services (collectively, the “Services”)."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Safri processes personal data in accordance with the Saudi Personal Data Protection Law (“PDPL”), its Implementing Regulations, and other applicable requirements."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "This Policy applies to customers, website visitors, Merchant owners and staff, delivery contacts, prospective customers, and other individuals who interact with Safri. It does not replace the privacy notice of a Merchant, delivery provider, payment provider, or other third party that independently determines how it processes your data."
+                  }
+                ]
+              },
+              {
+                "id": "2",
+                "heading": "2. Controller identity and contact details",
+                "level": 2,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "For processing activities that Safri determines, the controller is:"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Safri"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Address: Madinah, Kingdom of Saudi Arabia"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Privacy email: privacy@safri.food"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "For some restaurant-specific processing, the relevant Merchant may be an independent controller. For other activities, Safri may act as a processor on the Merchant's documented instructions. If your request concerns a Merchant's independent use of your data, we may direct you to that Merchant or help route your request."
+                  }
+                ]
+              },
+              {
+                "id": "3",
+                "heading": "3. Personal data we collect",
+                "level": 2,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Depending on how you use the Services, we may collect the following categories:"
+                  }
+                ]
+              },
+              {
+                "id": "3.1",
+                "heading": "3.1 Identity and contact data",
+                "level": 3,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Name, username, customer or Merchant identifier, email address, mobile number, authentication details, billing contact, delivery address, district, city, national address details where provided, and preferred language."
+                  }
+                ]
+              },
+              {
+                "id": "3.2",
+                "heading": "3.2 Order and transaction data",
+                "level": 3,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Selected Merchant and branch, ordered items and options, order value, discounts, loyalty activity, payment status, invoice information, delivery or pickup choice, order history, refunds, chargebacks, complaints, and communications concerning an order."
+                  }
+                ]
+              },
+              {
+                "id": "3.3",
+                "heading": "3.3 Payment data",
+                "level": 3,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Payment method type, tokenized payment identifier, last digits or similar limited card details supplied by a payment provider, transaction reference, authorization status, and fraud-screening result. Complete card details are ordinarily collected and processed directly by licensed payment providers rather than stored by Safri."
+                  }
+                ]
+              },
+              {
+                "id": "3.4",
+                "heading": "3.4 Location and delivery data",
+                "level": 3,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Delivery address, map pin, approximate or precise device location when you enable location permission, delivery instructions, and delivery status. You may deny device-location permission and enter an address manually, although some location-based features may then be unavailable."
+                  }
+                ]
+              },
+              {
+                "id": "3.5",
+                "heading": "3.5 Merchant and workforce data",
+                "level": 3,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Business and branch details, commercial and tax information, owner or authorized representative details, staff names and roles, work contact information, account permissions, plan and billing information, device pairing, and operational activity within the dashboard."
+                  }
+                ]
+              },
+              {
+                "id": "3.6",
+                "heading": "3.6 Device, technical, and usage data",
+                "level": 3,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "IP address, device and browser type, operating system, app version, identifiers, language, time zone, login and security events, crash information, referring page, pages and features used, clicks, session duration, and cookie or similar technology data."
+                  }
+                ]
+              },
+              {
+                "id": "3.7",
+                "heading": "3.7 Communications and support data",
+                "level": 3,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Messages, call or chat details, form submissions, survey responses, complaints, support history, photographs or documents you choose to provide, and records of consent or communication preferences."
+                  }
+                ]
+              },
+              {
+                "id": "3.8",
+                "heading": "3.8 Content and preferences",
+                "level": 3,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Reviews, ratings, saved addresses, favourite Merchants or items, dietary selections, promotion and loyalty preferences, and other content submitted through the Services."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Please avoid entering sensitive personal data in free-text fields unless it is necessary for your request. Dietary information may in some circumstances reveal health or religious information and will be handled in accordance with applicable requirements."
+                  }
+                ]
+              },
+              {
+                "id": "4",
+                "heading": "4. How we collect personal data",
+                "level": 2,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "We collect personal data:"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Directly from you, when you create an account, place an order, subscribe, contact support, complete a form, enable a device permission, or otherwise use the Services."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "From Merchants, when a restaurant creates staff access, processes an order, updates fulfilment, responds to a complaint, or provides business contact information."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "From service providers and integrations, such as payment providers, delivery companies, identity or fraud-prevention tools, communications services, point-of-sale integrations, and analytics providers."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Automatically, through logs, cookies, SDKs, pixels, and similar technologies when you use our website or applications."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "From public or authorized sources, such as a Merchant's publicly available business details or information supplied by its authorized representative."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Where providing data is mandatory, we will indicate this at collection. If you do not provide information required to create an account, fulfil an order, process payment, deliver products, provide a requested feature, or comply with law, we may be unable to provide the relevant Service."
+                  }
+                ]
+              },
+              {
+                "id": "5",
+                "heading": "5. Why we process personal data and our legal bases",
+                "level": 2,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "We process personal data only for a clear purpose and an applicable legal basis, including the following:"
+                  },
+                  {
+                    "type": "table",
+                    "headers": [
+                      "Purpose",
+                      "Typical data",
+                      "Legal basis"
+                    ],
+                    "rows": [
+                      [
+                        "Create, authenticate, and manage accounts",
+                        "Identity, contact, authentication, Merchant staff data",
+                        "Performing a contract or taking requested pre-contract steps; legitimate interests where permitted"
+                      ],
+                      [
+                        "Receive, route, prepare, deliver, collect, or refund orders",
+                        "Contact, order, transaction, address, location, payment status",
+                        "Performing the customer or Merchant contract; providing a requested service"
+                      ],
+                      [
+                        "Process subscriptions, payments, settlements, invoices, refunds, and chargebacks",
+                        "Business, billing, payment, and transaction data",
+                        "Performing a contract; compliance with legal obligations"
+                      ],
+                      [
+                        "Provide customer and Merchant support",
+                        "Identity, order, communications, attachments",
+                        "Performing a contract; legitimate interests in resolving issues and improving service"
+                      ],
+                      [
+                        "Operate loyalty, coupons, rewards, and promotions",
+                        "Account, order history, preferences, loyalty activity",
+                        "Performing program terms; consent where required"
+                      ],
+                      [
+                        "Send direct marketing",
+                        "Contact details, preferences, campaign interactions",
+                        "Consent or another lawful basis permitted for the specific communication; you may opt out at any time"
+                      ],
+                      [
+                        "Secure the Services and prevent fraud or misuse",
+                        "Account, transaction, device, log, and security data",
+                        "Compliance with legal obligations; legitimate interests in protecting users and the Services"
+                      ],
+                      [
+                        "Monitor performance, troubleshoot, analyze, and improve the Services",
+                        "Usage, device, crash, support, and aggregated data",
+                        "Legitimate interests where permitted; consent for non-essential cookies or technologies where required"
+                      ],
+                      [
+                        "Comply with law, audits, regulatory requests, and legal claims",
+                        "Relevant account, transaction, communication, and business data",
+                        "Compliance with legal obligations; establishment, exercise, or defence of legal claims"
+                      ],
+                      [
+                        "Enable integrations selected by a Merchant or customer",
+                        "Account, order, delivery, payment, and business data as necessary",
+                        "Performing a contract; consent where required"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Where we rely on consent, you may withdraw it at any time using the relevant settings, unsubscribe method, device permission, or the contact details below. Withdrawal does not affect processing that was lawful before withdrawal."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Where we rely on a legitimate interest, we assess the need for the processing and its impact on your rights and do not rely on that basis where your rights or interests override it."
+                  }
+                ]
+              },
+              {
+                "id": "6",
+                "heading": "6. How we disclose personal data",
+                "level": 2,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "We disclose only the data reasonably necessary for the relevant purpose and may share it with:"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The Merchant and relevant branch to accept, prepare, fulfil, support, and refund your order. This may include your name, telephone number, order details, address, delivery instructions, and payment status."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Delivery providers and drivers to arrange, complete, communicate about, and track delivery."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Payment, banking, wallet, and fraud-prevention providers to authorize payments, process settlements and refunds, prevent fraud, and handle disputes."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Technology service providers supporting cloud hosting, security, communications, notifications, analytics, customer support, mapping, and system integrations under appropriate contractual and security controls."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Professional advisers, auditors, insurers, and financiers where reasonably necessary and subject to appropriate confidentiality obligations."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Government, judicial, regulatory, or law-enforcement authorities where disclosure is required or permitted by applicable law."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "A purchaser, investor, successor, or transaction adviser in connection with a proposed or completed merger, financing, reorganization, or transfer of all or part of the business, subject to applicable law and appropriate safeguards."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Other parties at your direction or with your consent."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Safri does not sell or rent personal data to third parties for their independent direct marketing."
+                  }
+                ]
+              },
+              {
+                "id": "7",
+                "heading": "7. Merchants and branded ordering channels",
+                "level": 2,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "When you order through a Merchant's Safri-powered website or application, both Safri and that Merchant may receive your personal data. The Merchant independently controls matters such as its menu, order fulfilment, customer service, legally permitted customer relationship, and any marketing for which it is responsible."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Merchants must use Safri-provided customer data in accordance with their agreements, the PDPL, and other applicable law. You should also review the relevant Merchant's privacy notice. Safri is not responsible for processing that a Merchant conducts outside Safri's instructions or Services, except to the extent liability cannot lawfully be excluded."
+                  }
+                ]
+              },
+              {
+                "id": "8",
+                "heading": "8. International data transfers",
+                "level": 2,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Some approved service providers may process or support personal data from locations outside the Kingdom of Saudi Arabia. Where personal data is transferred or disclosed outside the Kingdom, Safri will take the steps required by the PDPL and the applicable regulation on personal data transfers, including limiting the transfer to what is necessary and using an approved legal mechanism or appropriate safeguards where required."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "You may contact privacy@safri.food for information about the safeguards applicable to a relevant transfer, subject to confidentiality and security restrictions."
+                  }
+                ]
+              },
+              {
+                "id": "9",
+                "heading": "9. Cookies and similar technologies",
+                "level": 2,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Safri and authorized providers may use cookies, SDKs, pixels, local storage, and similar technologies for:"
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "essential authentication, security, cart, checkout, language, and session functions;",
+                      "saving preferences and improving convenience;",
+                      "measuring traffic, performance, and feature usage;",
+                      "diagnosing errors and preventing fraud; and",
+                      "advertising or campaign measurement where you have provided any required consent."
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "You can manage non-essential technologies through any cookie or privacy settings made available within the Services and through your browser or device settings. Blocking essential technologies may prevent parts of the Services from working correctly. Safri will request consent for non-essential cookies or similar technologies where required."
+                  }
+                ]
+              },
+              {
+                "id": "10",
+                "heading": "10. Marketing communications",
+                "level": 2,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Safri may send promotional email, SMS, push notification, or other direct marketing only on an applicable legal basis. You may opt out using the unsubscribe link, account or notification settings, or by contacting us."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Opting out of marketing does not prevent necessary transactional messages about your account, security, orders, payments, subscriptions, or support requests."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Merchants are independently responsible for their own marketing activities and consents where they determine the campaign."
+                  }
+                ]
+              },
+              {
+                "id": "11",
+                "heading": "11. Retention",
+                "level": 2,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Safri retains personal data only for as long as necessary for the purpose for which it was collected and processed. The criteria used to determine the period include:"
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "the duration of your account, order, Merchant subscription, or other relationship with Safri;",
+                      "the time needed to fulfil orders, provide support, administer loyalty, and complete settlements or refunds;",
+                      "applicable tax, accounting, e-commerce, payment, data-protection, and recordkeeping requirements;",
+                      "limitation periods and the need to establish, exercise, or defend legal claims;",
+                      "fraud-prevention, cybersecurity, audit, and service-integrity needs; and",
+                      "a valid request for destruction and whether a legal exception requires continued retention."
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "When personal data is no longer required, Safri will securely destroy it or anonymize it so that it can no longer identify you. Backup copies may remain for a limited period until overwritten or securely destroyed, subject to applicable requirements."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Consent records may be kept as necessary to demonstrate compliance, and data needed to honour a marketing opt-out may be retained in a suppression list."
+                  }
+                ]
+              },
+              {
+                "id": "12",
+                "heading": "12. Security",
+                "level": 2,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Safri uses appropriate organizational, administrative, and technical measures designed to protect personal data against unauthorized access, disclosure, alteration, loss, misuse, or destruction. These measures may include access controls, encryption in transit and where appropriate at rest, logging, backups, vendor due diligence, vulnerability management, and staff confidentiality controls."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "No system is completely secure. You are responsible for protecting your credentials and notifying Safri promptly of suspected unauthorized access. If a personal data breach requires notification, Safri will notify the competent authority and affected individuals in accordance with applicable law."
+                  }
+                ]
+              },
+              {
+                "id": "13",
+                "heading": "13. Your personal-data rights",
+                "level": 2,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Subject to the PDPL and its applicable exceptions, you may have the right to:"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Be informed about the legal basis and purpose of collecting your personal data and how it is processed."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Access your personal data held by Safri."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Request a copy of your personal data in a readable and clear format."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Request correction, completion, or updating of inaccurate or incomplete personal data."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Request destruction of personal data when the applicable legal conditions are satisfied."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Withdraw consent at any time where consent is the basis for processing."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "You may exercise your rights through available account settings or by contacting privacy@safri.food. Please describe your request and the Safri account, order, or Merchant relationship concerned. We may verify your identity and authority before responding to protect personal data from unauthorized disclosure."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "We will respond within the period required by applicable law. A request may be restricted or refused only where permitted by law, and we will provide the required explanation. There is ordinarily no charge, but applicable law may permit a reasonable charge or refusal for manifestly unfounded or excessive repeated requests."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "If the processing is controlled independently by a Merchant or third party, we may direct you to the appropriate entity."
+                  }
+                ]
+              },
+              {
+                "id": "14",
+                "heading": "14. Complaints",
+                "level": 2,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "If you have a privacy concern, please contact privacy@safri.food first so we can investigate and respond."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "You also have the right to submit a complaint to the competent data-protection authority in the Kingdom of Saudi Arabia through the official channels made available by the Saudi Data & AI Authority (SDAIA), subject to the applicable complaint requirements and time limits."
+                  }
+                ]
+              },
+              {
+                "id": "15",
+                "heading": "15. Children",
+                "level": 2,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Safri's account and Merchant Services are not directed to children. Merchant accounts may be managed only by adults. A person under 18 should use customer ordering features only with the permission and supervision of a parent or legal guardian."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "If we become aware that a child's personal data was collected without the authority required by applicable law, we will take appropriate steps to restrict or destroy it. A parent or guardian may contact privacy@safri.food."
+                  }
+                ]
+              },
+              {
+                "id": "16",
+                "heading": "16. Automated processing",
+                "level": 2,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Safri may use automated tools to help detect fraud, recommend content, rank search results, personalize the experience, or route orders. Safri does not intend to make a decision based solely on automated processing that produces legal or similarly significant effects on an individual without providing the notices, safeguards, and rights required by applicable law."
+                  }
+                ]
+              },
+              {
+                "id": "17",
+                "heading": "17. Changes to this Privacy Policy",
+                "level": 2,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "We may update this Privacy Policy to reflect changes in law, technology, the Services, or our processing practices. We will post the updated version and revise the “Last updated” date. If a change materially affects your rights or how we process personal data, we will provide additional notice or obtain consent where required."
+                  }
+                ]
+              },
+              {
+                "id": "18",
+                "heading": "18. Contact us about privacy",
+                "level": 2,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "For privacy questions or rights requests:"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Safri"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Privacy email: privacy@safri.food"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Address: Madinah, Kingdom of Saudi Arabia"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "terms",
+        "sections": [
+          {
+            "id": "document",
+            "title": "Terms and Conditions",
+            "effectiveDate": "Effective date: 7 August 2026",
+            "lastUpdated": "Last updated: 7 August 2026",
+            "chapters": [
+              {
+                "id": "1",
+                "heading": "1. About these Terms",
+                "level": 2,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "These Terms and Conditions (the “Terms”) are a legally binding agreement between you and Safri, a business established in the Kingdom of Saudi Arabia and  (“Safri,” “we,” “us,” or “our”)."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "These Terms govern your access to and use of the Safri website, Safri mobile applications, the Safri marketplace, restaurant-branded websites and applications powered by Safri, merchant dashboards, kitchen and order-management interfaces, APIs, integrations, loyalty features, delivery tools, and related products and services (collectively, the “Services”)."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "By accessing or using the Services, creating an account, placing an order, accepting an order, subscribing to a Safri plan, or clicking to accept these Terms, you confirm that you have read, understood, and agreed to them and to our Privacy Policy. If you do not agree, you must not use the Services."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Certain Services may be governed by an order form, merchant agreement, service-level agreement, campaign rules, or other supplemental terms. If supplemental terms conflict with these Terms, the supplemental terms will control only for the relevant Service and only to the extent of that conflict."
+                  }
+                ]
+              },
+              {
+                "id": "2",
+                "heading": "2. Who may use the Services",
+                "level": 2,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "You must have the legal capacity to enter into a binding agreement under applicable law. Merchant accounts may be created and managed only by persons aged 18 or older who are authorized to act for the relevant business."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "If you are under 18, you may use customer ordering features only with the permission and supervision of a parent or legal guardian. The parent or guardian is responsible for your use of the Services."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "If you use the Services on behalf of a restaurant, company, or other organization, you confirm that you have authority to bind that organization to these Terms. In that case, “you” also refers to that organization."
+                  }
+                ]
+              },
+              {
+                "id": "3",
+                "heading": "3. Safri's role",
+                "level": 2,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Safri provides technology that enables restaurants and other food and beverage businesses (“Merchants”) to present menus, receive and manage orders, operate direct ordering channels, communicate with customers, manage loyalty and promotions, and connect with payment, delivery, and other third-party services."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Unless Safri expressly identifies itself as the seller, the Merchant shown on the ordering page is the seller and supplier of the food, beverages, and related products in a customer order. The contract for those products is between the customer and the Merchant. The Merchant is responsible for its products, licences, menu information, ingredients, allergens, pricing, taxes, preparation, packaging, availability, food safety, quality, fulfilment, refunds, and compliance with applicable law."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Safri may facilitate payment, communication, order routing, delivery assignment, loyalty, refunds, or customer support. Doing so does not make Safri the manufacturer, restaurant, food supplier, or delivery provider unless expressly stated for a specific Service."
+                  }
+                ]
+              },
+              {
+                "id": "4",
+                "heading": "4. Accounts and security",
+                "level": 2,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "You agree to provide accurate, current, and complete information and to keep it updated. You are responsible for safeguarding your password, one-time verification codes, devices, API keys, and other account credentials, and for all activity under your account except to the extent caused by Safri's breach of applicable law."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "You must notify us promptly at privacy@safri.food if you suspect unauthorized access, misuse, or a security incident affecting your account. We may require identity or authority verification before changing account details, releasing information, or restoring access."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Safri may reject, suspend, restrict, or terminate an account where reasonably necessary to protect users or the Services, investigate suspected fraud or unlawful conduct, comply with law, address non-payment, or respond to a material breach of these Terms."
+                  }
+                ]
+              },
+              {
+                "id": "5",
+                "heading": "5. Customer orders",
+                "level": 2,
+                "blocks": []
+              },
+              {
+                "id": "5.1",
+                "heading": "5.1 Order submission and acceptance",
+                "level": 3,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "An order submitted through the Services is a request to purchase from the selected Merchant. The order becomes binding when the Merchant accepts it or begins preparation, as indicated in the Services. A confirmation that Safri received the request does not by itself guarantee Merchant acceptance."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The Merchant may reject or cancel an order because of unavailability, incorrect information, delivery limitations, suspected fraud, operational capacity, pricing or menu errors, or other reasonable grounds. If payment was captured for a rejected or cancelled order, the applicable amount will be reversed or refunded in accordance with the payment provider's processing time and applicable law."
+                  }
+                ]
+              },
+              {
+                "id": "5.2",
+                "heading": "5.2 Prices, taxes, and charges",
+                "level": 3,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "The checkout page will display the order price and any applicable value-added tax, delivery charge, service fee, minimum-order amount, tip, or other charge before the customer confirms the order. Prices and availability may differ between Merchants, branches, locations, and ordering channels."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "If an obvious pricing or technical error occurs, the Merchant or Safri may cancel the affected order and issue any required refund. Nothing in this section limits a customer's mandatory rights under Saudi law."
+                  }
+                ]
+              },
+              {
+                "id": "5.3",
+                "heading": "5.3 Changes, cancellations, and refunds",
+                "level": 3,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Customers should review the restaurant, branch, items, quantities, options, delivery address, collection time, and payment method before confirming an order."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "An order may be changed or cancelled only if the relevant Merchant has not accepted it or started preparation, unless the Merchant agrees otherwise or applicable law requires otherwise. Prepared food, perishable products, and customized items may not be eligible for cancellation or return after preparation has begun, subject to mandatory consumer rights."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Refund decisions concerning food quality, missing or incorrect items, preparation, or Merchant cancellation are primarily the Merchant's responsibility. Safri may facilitate the request and payment reversal. Approved refunds will normally be returned to the original payment method; bank and payment-provider processing times may apply."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "To report a problem, contact the Merchant or Safri support promptly and provide the order number, description of the issue, and reasonable supporting information. This does not restrict any right to file a complaint with a competent authority."
+                  }
+                ]
+              },
+              {
+                "id": "5.4",
+                "heading": "5.4 Delivery and pickup",
+                "level": 3,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Estimated preparation, pickup, and delivery times are estimates rather than guarantees. Delays may result from restaurant capacity, traffic, weather, address or access issues, demand, third-party delivery providers, or events beyond reasonable control."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Customers must provide a complete and accurate address, delivery instructions, and reachable telephone number, and must be available to receive the order. Additional charges or cancellation may apply if delivery cannot be completed because the customer is unavailable, the address is incorrect, access is unsafe or restricted, or the customer requests a material change after dispatch, subject to applicable law."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Where a third-party delivery provider fulfils an order, its applicable service terms may also apply. Safri may share the information necessary to arrange and track delivery as described in the Privacy Policy."
+                  }
+                ]
+              },
+              {
+                "id": "5.5",
+                "heading": "5.5 Menus, ingredients, and allergies",
+                "level": 3,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Merchants provide and control menu descriptions, photographs, ingredients, nutritional information, dietary labels, and allergen statements. Images may be illustrative, and the delivered product may differ in appearance."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Customers with allergies, intolerances, medical conditions, or strict dietary requirements must contact the Merchant directly before ordering. Safri does not independently verify a Merchant's kitchen practices, ingredients, allergen controls, or cross-contamination risk and does not guarantee that any item is free from a particular ingredient or allergen."
+                  }
+                ]
+              },
+              {
+                "id": "6",
+                "heading": "6. Payments",
+                "level": 2,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Payments may be processed by licensed third-party payment providers. Safri does not ordinarily store complete payment-card details. Your use of a payment method may also be governed by the terms of the relevant bank, wallet, card network, or payment provider."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "You authorize the applicable payment provider to charge the amount shown at checkout and to process reversals, adjustments, or refunds related to the transaction. A payment may be declined, delayed, or cancelled for security, regulatory, technical, or payment-provider reasons."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "You must not initiate a chargeback or payment dispute dishonestly. Before initiating a dispute, you should give the Merchant or Safri a reasonable opportunity to resolve the issue, without limiting your rights under applicable law or payment-network rules."
+                  }
+                ]
+              },
+              {
+                "id": "7",
+                "heading": "7. Promotions, coupons, credits, and loyalty",
+                "level": 2,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Promotions, discount codes, cashback, points, stamps, rewards, and credits may be subject to separate campaign rules, eligibility criteria, expiry dates, participating Merchants, minimum spend, geographic limits, and redemption restrictions shown when the offer is made."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Unless stated otherwise, promotions have no cash value, cannot be transferred or combined, and may be used only once per eligible customer or order. Safri or the Merchant may withhold or reverse benefits obtained through error, duplication, fraud, account abuse, chargeback, or breach of the applicable rules."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Merchant-specific loyalty benefits are funded and honoured by that Merchant unless Safri expressly states otherwise. Closing an account or ending a Merchant's participation may affect unused benefits, subject to applicable law and the terms disclosed for the relevant program."
+                  }
+                ]
+              },
+              {
+                "id": "8",
+                "heading": "8. Merchant terms",
+                "level": 2,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "This section applies in addition to the rest of these Terms when you use Safri as a Merchant."
+                  }
+                ]
+              },
+              {
+                "id": "8.1",
+                "heading": "8.1 Merchant eligibility and responsibilities",
+                "level": 3,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "The Merchant represents and warrants that it:"
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "is duly established and authorized to operate its business;",
+                      "holds and will maintain all registrations, licences, permits, tax registrations, and approvals required for its activities;",
+                      "will comply with food safety, public health, consumer protection, e-commerce, advertising, labour, tax, payment, data protection, and other applicable requirements;",
+                      "will provide accurate, complete, and non-misleading business, branch, menu, price, tax, availability, allergen, preparation-time, and delivery information;",
+                      "owns or is authorized to use all names, trademarks, photographs, menus, and other materials supplied to Safri;",
+                      "will accept, prepare, package, fulfil, cancel, and refund orders professionally and in accordance with applicable law;",
+                      "will provide customers with required invoices, disclosures, contact details, and complaint-handling channels; and",
+                      "will ensure that its staff and authorized users comply with these Terms."
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The Merchant is responsible for configuring its Services, managing staff access and permissions, maintaining compatible devices and connectivity, and verifying orders and operational settings."
+                  }
+                ]
+              },
+              {
+                "id": "8.2",
+                "heading": "8.2 Subscription plans and fees",
+                "level": 3,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "The applicable plan, term, implementation fees, transaction fees, optional-service fees, usage limits, and payment schedule will be shown in the checkout, Order Form, or Merchant Agreement. Fees are exclusive of VAT unless stated otherwise."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Where a subscription renews automatically, Safri will disclose the renewal terms before purchase. The Merchant authorizes Safri or its payment provider to collect recurring amounts when due until the subscription is cancelled in accordance with the applicable Order Form or account process."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Safri may change fees for a future renewal term by giving reasonable advance notice. A price change will not apply retroactively to a fully paid fixed term unless agreed by the parties or required by law."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Late or failed payment may result in restricted features or suspension after reasonable notice. The Merchant remains responsible for accrued fees, refunds, chargebacks, taxes, and other amounts properly due."
+                  }
+                ]
+              },
+              {
+                "id": "8.3",
+                "heading": "8.3 Cancellation and termination of Merchant plans",
+                "level": 3,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "The Merchant may cancel in accordance with its Order Form, Merchant Agreement, or the cancellation process made available in the Services. Unless those documents or applicable law state otherwise, cancellation takes effect at the end of the current paid term, and amounts already paid are non-refundable."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Safri may suspend or terminate a Merchant Service for material breach, unlawful activity, repeated customer-safety concerns, fraud, non-payment, security risk, misuse of customer data, or conduct that materially harms Safri, users, or third parties. Where reasonably possible and legally appropriate, Safri will provide notice and an opportunity to remedy the breach."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "On termination, the Merchant must stop using the affected Service and Safri materials. Subject to legal retention obligations, technical feasibility, and the applicable plan, the Merchant may request an export of its business data within 30 days after termination. Safri may thereafter delete or anonymize data according to the Privacy Policy and applicable law."
+                  }
+                ]
+              },
+              {
+                "id": "8.4",
+                "heading": "8.4 Settlements, refunds, and chargebacks",
+                "level": 3,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "If Safri facilitates collection of customer payments for the Merchant, payout timing, reserves, processing fees, deductions, and settlement methods will be stated in the Order Form, Merchant Agreement, or payment-service terms."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The Merchant authorizes Safri to deduct amounts properly due, including agreed fees, customer refunds, reversals, chargebacks, penalties attributable to the Merchant, and corrections. Safri may temporarily withhold settlement where reasonably necessary to investigate suspected fraud, satisfy legal or payment-provider requirements, cover a reasonably anticipated liability, or correct a reconciliation issue."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The Merchant remains responsible for the underlying customer transaction and for providing evidence reasonably requested in connection with a refund, complaint, or chargeback."
+                  }
+                ]
+              },
+              {
+                "id": "8.5",
+                "heading": "8.5 Customer information",
+                "level": 3,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "The Merchant may use customer personal data received through Safri only to fulfil orders, provide support, maintain a lawful customer relationship, and carry out other purposes transparently disclosed to the customer and permitted by applicable law."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The Merchant must not sell customer data, send unlawful marketing, disclose it without authority, use it to build unrelated databases, or permit unauthorized access. The Merchant must implement appropriate security measures, respond to data-subject requests, report relevant incidents promptly, and comply with the Saudi Personal Data Protection Law and its implementing regulations."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Depending on the processing activity, Safri and the Merchant may each act as an independent controller, or Safri may process data on the Merchant's documented instructions. Any separate data-processing agreement between Safri and the Merchant will govern processor activities."
+                  }
+                ]
+              },
+              {
+                "id": "8.6",
+                "heading": "8.6 Integrations and third-party services",
+                "level": 3,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "The Merchant may connect Safri with point-of-sale systems, payment services, delivery providers, messaging tools, analytics services, custom domains, or other third-party products. The Merchant authorizes Safri to exchange the information reasonably necessary to provide the integration."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Third-party products are governed by their own terms and policies. Safri is not responsible for their independent acts, availability, pricing, changes, or security, but this does not exclude responsibility that cannot lawfully be excluded."
+                  }
+                ]
+              },
+              {
+                "id": "9",
+                "heading": "9. User content and reviews",
+                "level": 2,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "You retain ownership of content you submit, such as restaurant information, logos, menus, product images, reviews, comments, and support attachments (“User Content”)."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "You grant Safri a non-exclusive, worldwide, royalty-free licence to host, copy, format, display, transmit, and otherwise use User Content only as reasonably necessary to operate, secure, improve, and promote the Services and the relevant Merchant, subject to the Privacy Policy and any applicable commercial agreement."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "You confirm that your User Content is accurate, lawful, and does not infringe privacy, intellectual property, confidentiality, publicity, or other rights. Reviews must reflect genuine experiences and must not contain unlawful, fraudulent, abusive, discriminatory, defamatory, threatening, obscene, or irrelevant material."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Safri may moderate, restrict, or remove User Content that reasonably appears to violate these Terms or applicable law. Safri is not obliged to monitor all User Content and does not endorse user reviews."
+                  }
+                ]
+              },
+              {
+                "id": "10",
+                "heading": "10. Acceptable use",
+                "level": 2,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "You must not:"
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "use the Services for an unlawful, fraudulent, deceptive, or unauthorized purpose;",
+                      "impersonate another person or misrepresent your identity, authority, business, products, or affiliation;",
+                      "access another user's account or data without authorization;",
+                      "probe, scan, bypass, disable, or interfere with authentication, security, rate limits, or access controls;",
+                      "introduce malware, harmful code, excessive traffic, spam, or any material that disrupts the Services;",
+                      "scrape, harvest, copy, or systematically extract data except through an authorized Safri feature or written permission;",
+                      "reverse engineer, decompile, disassemble, or attempt to discover source code except to the limited extent such restriction is prohibited by law;",
+                      "use the Services or Safri data to build, train, or support a competing product without written permission;",
+                      "infringe intellectual property, privacy, confidentiality, consumer, or other rights;",
+                      "manipulate orders, reviews, promotions, loyalty balances, referrals, charges, or refunds; or",
+                      "use the Services in a way that could harm customers, Merchants, delivery providers, Safri, or the public."
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "11",
+                "heading": "11. Intellectual property",
+                "level": 2,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "The Services, including Safri software, source code, databases, functionality, interface designs, text, graphics, trademarks, and other materials supplied by Safri, are owned by or licensed to Safri and are protected by applicable intellectual property laws."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Subject to these Terms and payment of applicable fees, Safri grants you a limited, revocable, non-exclusive, non-transferable, and non-sublicensable right to access and use the Services for their intended purpose during the applicable term. No ownership rights are transferred to you."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Safri does not claim ownership of a Merchant's pre-existing trademarks or User Content. A Merchant grants Safri the limited rights reasonably required to create and operate its branded channels and market the Merchant as an available Safri partner."
+                  }
+                ]
+              },
+              {
+                "id": "12",
+                "heading": "12. Privacy",
+                "level": 2,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Our Privacy Policy explains how Safri collects and processes personal data. Merchants and third-party providers may have their own privacy notices for processing they independently control."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "By using the Services, you acknowledge the processing described in the Privacy Policy. Where consent is the legal basis, you may withdraw it through the methods described in that policy without affecting processing already lawfully carried out."
+                  }
+                ]
+              },
+              {
+                "id": "13",
+                "heading": "13. Service availability and changes",
+                "level": 2,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Safri aims to provide reliable Services but does not guarantee uninterrupted or error-free availability. Maintenance, upgrades, internet or telecommunications failures, third-party outages, cybersecurity events, or circumstances beyond reasonable control may cause interruption."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Safri may update, improve, replace, restrict, or discontinue a feature. For a material change that significantly reduces a paid Merchant Service during a current fixed term, Safri will provide reasonable notice where practicable and any remedy required by the applicable agreement or law."
+                  }
+                ]
+              },
+              {
+                "id": "14",
+                "heading": "14. Disclaimers",
+                "level": 2,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "To the fullest extent permitted by applicable law, the Services are provided “as available.” Safri does not guarantee the commercial success of a Merchant, a minimum number of orders, uninterrupted third-party integrations, or the accuracy of content supplied by Merchants or other users."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Safri is not responsible for a Merchant's food, ingredients, preparation, packaging, licences, service, representations, or fulfilment, or for a third-party delivery provider's independent acts. Nothing in these Terms excludes any warranty, duty, or consumer right that cannot lawfully be excluded."
+                  }
+                ]
+              },
+              {
+                "id": "15",
+                "heading": "15. Limitation of liability",
+                "level": 2,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Nothing in these Terms limits liability for fraud, wilful misconduct, gross negligence, infringement of rights that cannot lawfully be limited, death or personal injury caused by negligence where such limitation is prohibited, or any other liability that applicable law does not permit us to exclude or limit."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Subject to the previous paragraph and to the fullest extent permitted by law, Safri will not be liable for indirect, incidental, special, exemplary, or consequential loss, or for loss of profits, revenue, goodwill, business opportunity, or data, arising from the Services."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "For a Merchant claim relating to a paid Service, Safri's aggregate liability will not exceed the fees paid by that Merchant to Safri for the affected Service during the six months immediately preceding the event giving rise to the claim. For a customer claim, Safri's aggregate liability will not exceed the amount the customer paid through Safri for the affected order. These limits do not reduce any mandatory right or remedy under applicable law."
+                  }
+                ]
+              },
+              {
+                "id": "16",
+                "heading": "16. Indemnity for business users",
+                "level": 2,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "To the extent permitted by law, a Merchant will defend, indemnify, and hold harmless Safri and its officers, employees, and agents from third-party claims, losses, penalties, and reasonable costs arising from the Merchant's products, operations, User Content, infringement of third-party rights, misuse of customer data, breach of these Terms, or violation of applicable law, except to the extent caused by Safri's own breach, negligence, or wilful misconduct."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "This section applies to business users and is not intended to restrict mandatory consumer rights."
+                  }
+                ]
+              },
+              {
+                "id": "17",
+                "heading": "17. Electronic communications",
+                "level": 2,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "You agree that contracts, order confirmations, invoices, notices, disclosures, and other communications may be provided electronically through the Services, email, SMS, or other contact details you provide. Electronic records and acceptance may be used to the extent permitted by applicable law."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Marketing communications will be sent in accordance with applicable consent and opt-out requirements. Transactional and service messages may still be sent where necessary to operate your account or fulfil an order."
+                  }
+                ]
+              },
+              {
+                "id": "18",
+                "heading": "18. Changes to these Terms",
+                "level": 2,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Safri may update these Terms to reflect changes in the Services, law, security requirements, or business practices. The updated version will be posted with a new “Last updated” date."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "If a change materially affects your rights or obligations, Safri will provide additional notice where required or reasonably practicable. Continued use after the effective date constitutes acceptance, except where applicable law requires express acceptance. If you do not agree to an update, you must stop using the affected Services and may cancel any subscription according to its applicable terms."
+                  }
+                ]
+              },
+              {
+                "id": "19",
+                "heading": "19. Governing law and disputes",
+                "level": 2,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "These Terms are governed by the laws and regulations of the Kingdom of Saudi Arabia."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Before commencing formal proceedings, you and Safri should attempt in good faith to resolve the dispute by contacting privacy@safri.food and allowing a reasonable period for response. This does not prevent either party from seeking urgent relief or submitting a complaint to a competent government or regulatory authority."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Subject to any mandatory consumer forum or jurisdiction, the competent courts of the Kingdom of Saudi Arabia will have jurisdiction over disputes arising from these Terms or the Services."
+                  }
+                ]
+              },
+              {
+                "id": "20",
+                "heading": "20. General provisions",
+                "level": 2,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "These Terms, the Privacy Policy, and any applicable supplemental agreement constitute the agreement between you and Safri concerning the Services. If any provision is held invalid or unenforceable, it will be limited or severed to the minimum extent necessary, and the remaining provisions will continue in effect."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Safri's failure to enforce a provision is not a waiver. You may not assign your rights or obligations without Safri's written consent. Safri may assign its rights and obligations as part of a reorganization, financing, sale, or transfer of the relevant business, subject to applicable law."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Neither party is liable for delay or failure caused by circumstances beyond its reasonable control, except for payment obligations already due and obligations that cannot lawfully be excused."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "If these Terms are made available in Arabic and English, the Arabic version will prevail to the extent required by Saudi law or stated on the Arabic version."
+                  }
+                ]
+              },
+              {
+                "id": "21",
+                "heading": "21. Contact us",
+                "level": 2,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "For questions, complaints, or notices concerning these Terms:"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Safri"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Address: Madinah, Kingdom of Saudi Arabia"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Email: privacy@safri.food"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

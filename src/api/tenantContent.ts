@@ -1,22 +1,13 @@
-import { API_ACCESS_TOKEN, apiUrl } from "../config/env";
+import { apiUrl } from "../config/env";
 import type {
   ApiListResponse,
   TenantContentDocument,
   TenantSiteContent,
 } from "../types/content";
+import { authorizedFetch } from "./http";
 
 export const fetchTenantContent = async (): Promise<TenantSiteContent> => {
-  const headers: HeadersInit = {
-    Accept: "application/json",
-  };
-
-  if (API_ACCESS_TOKEN) {
-    headers.Authorization = `Bearer ${API_ACCESS_TOKEN}`;
-  }
-
-  const response = await fetch(apiUrl("/api/v1/tenant-contents"), {
-    headers,
-  });
+  const response = await authorizedFetch(apiUrl("/api/v1/tenant-contents"));
 
   if (!response.ok) {
     throw new Error(`Failed to load tenant content (${response.status})`);

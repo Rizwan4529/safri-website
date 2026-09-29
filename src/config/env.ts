@@ -4,8 +4,6 @@ export const API_BASE_URL = trimTrailingSlash(
   import.meta.env.VITE_API_BASE_URL ?? "",
 );
 
-export const API_ACCESS_TOKEN = import.meta.env.VITE_API_ACCESS_TOKEN ?? "";
-
 /** API requests use same-origin `/api` in dev/preview (Vite proxy) to avoid CORS. */
 export const apiUrl = (path: string) => {
   const normalized = path.startsWith("/") ? path : `/${path}`;

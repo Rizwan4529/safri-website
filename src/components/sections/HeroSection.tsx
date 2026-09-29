@@ -1,8 +1,10 @@
 import { motion, useReducedMotion } from "framer-motion";
 import { mediaUrl } from "../../config/env";
+import { useSignupModal } from "../../context/SignupModalContext";
 import { usePageSection } from "../../context/ContentContext";
 import InView, { fadeLeft, fadeRight } from "../motion/InView";
 import Button from "../ui/Button";
+import DrawBorderLink from "../ui/DrawBorderLink";
 import HeroBackdrop from "../ui/HeroBackdrop";
 
 type HeroSectionContent = {
@@ -18,32 +20,53 @@ type HeroSectionContent = {
   image?: string;
   imageAlt?: string;
   accentImage?: string;
+  teaserLabel?: string;
+  teaserText?: string;
+  teaserCtaText?: string;
+  teaserCtaPath?: string;
 };
 
 const HeroSection = () => {
   const prefersReducedMotion = useReducedMotion();
   const duration = prefersReducedMotion ? 0.01 : 0.55;
+  const { openSignupModal } = useSignupModal();
   const { section } = usePageSection<HeroSectionContent>("home", "hero");
 
   const titleLines = section?.titleLines ?? [];
   const accentSrc = mediaUrl(section?.accentImage);
   const imageSrc = mediaUrl(section?.image);
   const bgSrc = mediaUrl(section?.bgImg);
+  const primaryIsTryNow = /try\s*now|book\s*a\s*demo/i.test(
+    section?.primaryCtaText ?? "",
+  );
 
   return (
     <section id="home" className="relative isolate min-h-svh overflow-x-clip">
       {accentSrc ? (
-        <motion.img
-          src={accentSrc}
-          alt=""
-          width={200}
-          height={200}
-          decoding="async"
+        <motion.div
           initial={prefersReducedMotion ? false : { opacity: 0, x: -16 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration, delay: 0.18, ease: "easeOut" }}
-          className="pointer-events-none absolute top-60 -left-4 w-12 rotate-40 select-none sm:w-20 lg:w-30"
-        />
+          className="pointer-events-none absolute top-60 -left-4 w-12 select-none sm:w-20 lg:w-30"
+        >
+          <div
+            className={[
+              "rotate-40",
+              prefersReducedMotion ? "" : "animate-float-slow",
+            ]
+              .filter(Boolean)
+              .join(" ")}
+          >
+            <img
+              src={accentSrc}
+              alt=""
+              width={200}
+              height={200}
+              decoding="async"
+              className="size-full object-contain"
+            />
+          </div>
+        </motion.div>
       ) : null}
 
       <HeroBackdrop src={bgSrc || undefined} />
@@ -84,17 +107,18 @@ const HeroSection = () => {
               <Button
                 variant="secondary"
                 size="cta"
-                href={section?.primaryCtaPath}
+                href={primaryIsTryNow ? undefined : section?.primaryCtaPath}
+                onClick={primaryIsTryNow ? openSignupModal : undefined}
               >
                 {section?.primaryCtaText ?? "Book a Demo"}
               </Button>
               {section?.secondaryCtaText ? (
-                <a
+                <DrawBorderLink
                   href={section.secondaryCtaPath ?? "/services"}
-                  className="font-body text-sm font-semibold text-text-inverse transition-opacity hover:opacity-80"
+                  tone="inverse"
                 >
                   {section.secondaryCtaText}
-                </a>
+                </DrawBorderLink>
               ) : null}
             </div>
           </InView>
@@ -105,25 +129,54 @@ const HeroSection = () => {
             variants={fadeRight}
             className="relative flex items-center justify-center lg:justify-end"
           >
-            <motion.img
-              src={imageSrc}
-              alt={
-                section?.imageAlt ??
-                "Restaurant operations collage with orders, delivery, and customer satisfaction"
+            <div
+              className={
+                prefersReducedMotion ? undefined : "animate-float-slower"
               }
-              width={1536}
-              height={1536}
-              decoding="async"
-              className={[
-                "relative w-full max-w-md object-contain sm:max-w-lg lg:max-w-none",
-                prefersReducedMotion ? "" : "will-change-transform",
-              ]
-                .filter(Boolean)
-                .join(" ")}
-            />
+            >
+              <img
+                src={imageSrc}
+                alt={
+                  section?.imageAlt ??
+                  "Restaurant operations collage with orders, delivery, and customer satisfaction"
+                }
+                width={1536}
+                height={1536}
+                decoding="async"
+                className={[
+                  "relative w-full max-w-md object-contain sm:max-w-lg lg:max-w-none",
+                  prefersReducedMotion ? "" : "will-change-transform",
+                ]
+                  .filter(Boolean)
+                  .join(" ")}
+              />
+            </div>
           </InView>
         ) : null}
       </div>
+
+      {/* {section?.teaserText ? (
+        <div className="relative border-t border-white/15 bg-brand-dark/40">
+          <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-3 px-5 py-3.5 sm:px-8 lg:px-10">
+            <p className="font-body text-sm text-white/90">
+              {section.teaserLabel ? (
+                <span className="mr-2 font-semibold text-text-inverse">
+                  {section.teaserLabel}
+                </span>
+              ) : null}
+              {section.teaserText}
+            </p>
+            {section.teaserCtaText ? (
+              <a
+                href={section.teaserCtaPath ?? "#safri-360"}
+                className="font-body text-sm font-semibold text-text-inverse underline-offset-4 transition-opacity hover:opacity-80 hover:underline"
+              >
+                {section.teaserCtaText}
+              </a>
+            ) : null}
+          </div>
+        </div>
+      ) : null} */}
     </section>
   );
 };

@@ -1,6 +1,11 @@
 import { mediaUrl } from "../../config/env";
 import { useContent } from "../../context/ContentContext";
 import InView, { fadeLeft, fadeRight, fadeUp } from "../motion/InView";
+import missionIconFallback from "../../assets/images/about-us/mission-icon.png";
+import pizzaFallback from "../../assets/images/about-us/pizza.png";
+import leafFallback from "../../assets/images/about-us/right.png";
+import aboutImageFallback from "../../assets/images/about-us/left.jpg";
+import visionIconFallback from "../../assets/images/about-us/vission-icon.png";
 
 type WhoWeAreSection = {
   id: string;
@@ -41,11 +46,15 @@ const AboutStorySection = () => {
   const aboutIntro = getSection<AboutIntroSection>("home", "aboutIntro");
 
   const cabbage = mediaUrl(whoWeAre?.sketchImages?.cabbage);
-  const leaf = mediaUrl(whoWeAre?.sketchImages?.leaf);
-  const pizza = mediaUrl(whoWeAre?.sketchImages?.pizza);
-  const image = mediaUrl(whoWeAre?.image);
+  const leaf = mediaUrl(whoWeAre?.sketchImages?.leaf) || leafFallback;
+  const pizza = mediaUrl(whoWeAre?.sketchImages?.pizza) || pizzaFallback;
+  const image = mediaUrl(whoWeAre?.image) || aboutImageFallback;
   const titleLines = whoWeAre?.titleLines ?? [];
   const valueItems = ourValues?.items ?? [];
+  const iconFallbackByTitle: Record<string, string> = {
+    "Our Vision": visionIconFallback,
+    "Our Mission": missionIconFallback,
+  };
 
   return (
     <section id="story" className="relative overflow-x-clip bg-surface">
@@ -123,6 +132,11 @@ const AboutStorySection = () => {
                 height={1688}
                 loading="lazy"
                 decoding="async"
+                onError={(event) => {
+                  if (event.currentTarget.src !== aboutImageFallback) {
+                    event.currentTarget.src = aboutImageFallback;
+                  }
+                }}
                 className="aspect-4/5 w-full object-cover object-[62%_42%] sm:aspect-3/4"
               />
             </div>
@@ -178,14 +192,27 @@ const AboutStorySection = () => {
                     .filter(Boolean)
                     .join(" ")}
                 >
-                  {item.icon ? (
+                  {item.icon || iconFallbackByTitle[item.title] ? (
                     <img
-                      src={mediaUrl(item.icon)}
+                      src={
+                        mediaUrl(item.icon) ||
+                        iconFallbackByTitle[item.title] ||
+                        ""
+                      }
                       alt=""
                       width={24}
                       height={24}
                       loading="lazy"
                       decoding="async"
+                      onError={(event) => {
+                        const fallback = iconFallbackByTitle[item.title];
+                        if (
+                          fallback &&
+                          event.currentTarget.src !== fallback
+                        ) {
+                          event.currentTarget.src = fallback;
+                        }
+                      }}
                       className="size-5 brightness-0 invert"
                     />
                   ) : null}

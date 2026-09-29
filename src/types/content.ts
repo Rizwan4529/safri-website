@@ -3,6 +3,7 @@ export type ContentLink = {
   title: string;
   path: string;
   external?: boolean;
+  children?: ContentLink[];
 };
 
 export type ContentTheme = {

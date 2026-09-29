@@ -1,7 +1,9 @@
 import { mediaUrl } from "../../config/env";
+import { useSignupModal } from "../../context/SignupModalContext";
 import { usePageSection } from "../../context/ContentContext";
 import InView, { fadeLeft, fadeRight } from "../motion/InView";
 import Button from "../ui/Button";
+import DrawBorderLink from "../ui/DrawBorderLink";
 
 type ServeBetterHeroContent = {
   id: string;
@@ -26,9 +28,13 @@ const ServeBetterHeroSection = ({
   pageId = "services",
   sectionId = "serveBetterHero",
 }: ServeBetterHeroSectionProps) => {
+  const { openSignupModal } = useSignupModal();
   const { section } = usePageSection<ServeBetterHeroContent>(pageId, sectionId);
   const laptop = mediaUrl(section?.images?.laptop);
   const menu = mediaUrl(section?.images?.menu);
+  const primaryIsTryNow = /try\s*now|book\s*a\s*demo/i.test(
+    section?.primaryCtaText ?? "",
+  );
 
   return (
     <section className="relative isolate min-h-svh overflow-x-clip bg-linear-to-r from-feature-panel to-contact-hero-end">
@@ -48,17 +54,18 @@ const ServeBetterHeroSection = ({
             <Button
               variant="primary"
               size="cta"
-              href={section?.primaryCtaPath}
+              href={primaryIsTryNow ? undefined : section?.primaryCtaPath}
+              onClick={primaryIsTryNow ? openSignupModal : undefined}
             >
-              {section?.primaryCtaText ?? "Try Now"}
+              {section?.primaryCtaText ?? "Book a demo"}
             </Button>
             {section?.secondaryCtaText ? (
-              <a
+              <DrawBorderLink
                 href={section.secondaryCtaPath ?? "/services"}
-                className="font-body text-sm font-semibold text-brand transition-colors hover:text-brand-dark"
+                tone="brand"
               >
                 {section.secondaryCtaText}
-              </a>
+              </DrawBorderLink>
             ) : null}
           </div>
         </InView>

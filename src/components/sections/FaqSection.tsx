@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { HiChevronDown } from "react-icons/hi2";
+import leafFallback from "../../assets/images/features/leaf-left.png";
 import { mediaUrl } from "../../config/env";
 import { usePageSection } from "../../context/ContentContext";
 import InView, { fadeLeft, fadeRight, fadeUp } from "../motion/InView";
@@ -24,7 +25,9 @@ const FaqSection = () => {
   const [openIndex, setOpenIndex] = useState(() =>
     Math.max(items.length - 1, 0),
   );
-  const leafSrc = mediaUrl(section?.leafImage);
+  const [leafFailed, setLeafFailed] = useState(false);
+  const remoteLeaf = mediaUrl(section?.leafImage);
+  const leafSrc = leafFailed || !remoteLeaf ? leafFallback : remoteLeaf;
   const imageSrc = mediaUrl(section?.image);
 
   const toggle = (index: number) => {
@@ -33,17 +36,16 @@ const FaqSection = () => {
 
   return (
     <section id="faq" className="relative overflow-x-clip bg-surface">
-      {leafSrc ? (
-        <img
-          src={leafSrc}
-          alt=""
-          width={146}
-          height={178}
-          loading="lazy"
-          decoding="async"
-          className="pointer-events-none absolute bottom-8 left-0 hidden w-16 select-none sm:block lg:bottom-12 lg:w-19"
-        />
-      ) : null}
+      <img
+        src={leafSrc}
+        alt=""
+        width={146}
+        height={178}
+        loading="lazy"
+        decoding="async"
+        onError={() => setLeafFailed(true)}
+        className="pointer-events-none absolute bottom-8 left-0 hidden w-16 select-none sm:block lg:bottom-12 lg:w-19"
+      />
 
       <div className="mx-auto max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-10 lg:py-24">
         <InView variants={fadeUp} className="mx-auto max-w-2xl text-center">
