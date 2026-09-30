@@ -41,10 +41,7 @@ const HeroSection = () => {
   );
 
   return (
-    <section
-      id="home"
-      className="relative isolate min-h-svh overflow-x-clip bg-brand"
-    >
+    <section id="home" className="relative isolate min-h-svh overflow-x-clip">
       {accentSrc ? (
         <motion.div
           initial={prefersReducedMotion ? false : { opacity: 0, x: -16 }}
