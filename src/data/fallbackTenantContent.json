@@ -30,7 +30,7 @@
         "sections": [
           {
             "id": "primaryNav",
-            "logo": "/uploads/files-1790670087044-logo.webp",
+            "logo": "/uploads/files-1790684312022-logo.webp",
             "logoAlt": "Safri",
             "links": [
               {
@@ -86,7 +86,7 @@
         "sections": [
           {
             "id": "brand",
-            "logo": "/uploads/files-1790670087363-logo-white-small.webp",
+            "logo": "/uploads/files-1790684312175-logo-white-small.webp",
             "logoAlt": "Safri",
             "title": "Safri",
             "blurb": "Safri helps restaurants own their digital ordering channel—menus, multi-outlet operations, kitchen tickets, and delivery—without depending on a patchwork of tools."
@@ -222,10 +222,10 @@
             "primaryCtaPath": "/contact",
             "secondaryCtaText": "View solutions",
             "secondaryCtaPath": "/services",
-            "bgImg": "/uploads/files-1790670086617-hero-bg.webp",
-            "image": "/uploads/files-1790668804015-hero-right.webp",
+            "bgImg": "/uploads/files-1790684311895-hero-bg.webp",
+            "image": "/uploads/files-1790684309896-hero-right.webp",
             "imageAlt": "Safri restaurant operations collage with orders, delivery, and guest satisfaction",
-            "accentImage": "/uploads/files-1790669635383-hero-cabbage-left.webp",
+            "accentImage": "/uploads/files-1790684311360-hero-cabbage-left.webp",
             "teaserLabel": "360°",
             "teaserText": "All delivery apps and restaurant ops in one place with Safri 360°",
             "teaserCtaText": "Learn more",
@@ -239,11 +239,11 @@
               "Online Growth"
             ],
             "body": "Safri combines merchant operations with white-label ordering so restaurants control menus, outlets, kitchens, and guest apps—boosting sales and cutting complexity from one connected system.",
-            "image": "/uploads/files-1790669634149-about-us-left.webp",
+            "image": "/uploads/files-1790684310727-about-us-left.webp",
             "sketchImages": {
-              "pizza": "/uploads/files-1790669633619-about-pizza.webp",
-              "leaf": "/uploads/files-1790669633883-about-right.webp",
-              "cabbage": "/uploads/files-1790669635383-hero-cabbage-left.webp"
+              "pizza": "/uploads/files-1790684310205-about-pizza.webp",
+              "leaf": "/uploads/files-1790684310526-about-right.webp",
+              "cabbage": "/uploads/files-1790684311360-hero-cabbage-left.webp"
             },
             "calloutTitle": "One connected system",
             "calloutSubtitle": "Menus, kitchens, and guest apps in sync."
@@ -280,7 +280,7 @@
                 "icon": "bag",
                 "title": "Grow direct sales",
                 "body": "Your own app so customers can order faster and you depend less on third parties.",
-                "image": "/uploads/files-1790668118577-res-1.jpg",
+                "image": "/uploads/files-1790684307687-res-1.jpg",
                 "imageAlt": "Grilled chicken platter prepared for restaurant guests"
               },
               {
@@ -288,7 +288,7 @@
                 "icon": "bolt",
                 "title": "Operational efficiency",
                 "body": "Kitchen, floor, and delivery wired into one signal — speed and accuracy by default.",
-                "image": "/uploads/files-1790668130948-res-2.jpg",
+                "image": "/uploads/files-1790684307862-res-2.jpg",
                 "imageAlt": "Chef plating dishes in a busy restaurant kitchen"
               },
               {
@@ -296,7 +296,7 @@
                 "icon": "megaphone",
                 "title": "Loyalty & guest experience",
                 "body": "Turn passers-by into regulars with smart loyalty and data-driven campaigns.",
-                "image": "/uploads/files-1790668131188-res-3.jpg",
+                "image": "/uploads/files-1790684308044-res-3.jpg",
                 "imageAlt": "Barista pouring latte art for a guest experience moment"
               }
             ]
@@ -326,8 +326,8 @@
                 "primaryCtaPath": "/services/online-ordering",
                 "secondaryCtaText": "Book a demo",
                 "secondaryCtaPath": "/contact",
-                "image": "/uploads/files-1790668803158-feature-1-laptop.png",
-                "imageOverlay": "/uploads/files-1790668803309-feature-1-menu.png",
+                "image": "/uploads/files-1790684308895-feature-1-laptop.webp",
+                "imageOverlay": "/uploads/files-1790684309063-feature-1-menu.webp",
                 "imageAlt": "Safri online ordering dashboard on laptop"
               },
               {
@@ -352,7 +352,7 @@
                 "primaryCtaPath": "/services/delivery",
                 "secondaryCtaText": "Book a demo",
                 "secondaryCtaPath": "/contact",
-                "image": "/uploads/files-1790668803646-feature-3-delivery.webp",
+                "image": "/uploads/files-1790684309398-feature-3-delivery.webp",
                 "imageAlt": "Safri delivery tracking and rider experience"
               },
               {
@@ -380,7 +380,7 @@
                 "primaryCtaPath": "/services/operations",
                 "secondaryCtaText": "Book a demo",
                 "secondaryCtaPath": "/contact",
-                "image": "/uploads/files-1790668803481-feature-2-branches.webp",
+                "image": "/uploads/files-1790684309223-feature-2-branches.webp",
                 "imageAlt": "Safri multi-outlet operations overview"
               }
             ]
@@ -392,7 +392,7 @@
             "body": "Manage delivery app orders, outlets, kitchens, and guest channels from one powerful dashboard—streamline operations, reduce errors, and handle every order with speed.",
             "ctaText": "See features",
             "ctaPath": "/services/360",
-            "image": "/uploads/files-1790668803820-feature-4-revenue.webp",
+            "image": "/uploads/files-1790684309677-feature-4-revenue.webp",
             "imageAlt": "Safri growth and revenue analytics"
           },
           {
@@ -404,8 +404,8 @@
             "body": "Ship white-label ordering apps for delivery, pickup, and curbside—in English and Arabic—so guests order under your brand, not a marketplace.",
             "appStoreUrl": "#",
             "playStoreUrl": "#",
-            "bgImg": "/uploads/files-1790670087618-mobile-app-bg.webp",
-            "image": "/uploads/files-1790670087856-rider-right.webp",
+            "bgImg": "/uploads/files-1790684312323-mobile-app-bg.webp",
+            "image": "/uploads/files-1790684312453-rider-right.webp",
             "imageAlt": "Safri delivery rider illustration"
           },
           {
@@ -427,13 +427,13 @@
                   "Lower marketplace commission drag",
                   "Menus and pricing you control in real time"
                 ],
-                "image": "/uploads/files-1790670262450-fb-1.webp"
+                "image": "/uploads/files-1790684312582-fb-1.webp"
               },
               {
                 "id": 2,
                 "title": "Turn Orders Into Clear Insights",
                 "body": "See what sells, which outlets perform, and where guests drop off—then use that signal to tighten menus, staffing, and promotions without guessing.",
-                "image": "/uploads/files-1790668802774-collect-data.webp",
+                "image": "/uploads/files-1790684308681-pillar-collect-data.webp",
                 "imageAlt": "Illustration of restaurant data flowing into actionable insights",
                 "imageLeft": true,
                 "panelTone": "soft",
@@ -447,7 +447,7 @@
                 "id": 3,
                 "title": "Grow Reach Without Losing Control",
                 "body": "Extend ordering across outlets and guest channels while keeping menus, tickets, and fulfillment aligned—so expansion does not multiply operational chaos.",
-                "image": "/uploads/files-1790668803013-expand-digital.webp",
+                "image": "/uploads/files-1790684308799-pillar-expand-digital.webp",
                 "imageAlt": "Illustration of targeted restaurant growth and guest engagement",
                 "imageLeft": false,
                 "panelTone": "soft",
@@ -522,11 +522,11 @@
             ],
             "callout": "Menus, modifiers, outlet pricing, kitchen tickets, and fulfillment—designed as one connected workflow instead of a pile of disconnected apps.",
             "body": "Safri is a restaurant technology company focused on the people who run food brands every day. We connect merchant operations and white-label guest ordering so teams work smarter, serve faster, and grow without unnecessary complexity.",
-            "image": "/uploads/files-1790669634149-about-us-left.webp",
+            "image": "/uploads/files-1790684310727-about-us-left.webp",
             "sketchImages": {
-              "pizza": "/uploads/files-1790669633619-about-pizza.webp",
-              "leaf": "/uploads/files-1790669633883-about-right.webp",
-              "cabbage": "/uploads/files-1790669635383-hero-cabbage-left.webp"
+              "pizza": "/uploads/files-1790684310205-about-pizza.webp",
+              "leaf": "/uploads/files-1790684310526-about-right.webp",
+              "cabbage": "/uploads/files-1790684311360-hero-cabbage-left.webp"
             }
           },
           {
@@ -538,19 +538,19 @@
                 "id": 1,
                 "title": "Our Vision",
                 "subTitle": "To be the operating system food brands trust to own their digital channel and run multi-outlet operations with confidence.",
-                "icon": "/uploads/files-1790669634505-about-vision-icon.webp"
+                "icon": "/uploads/files-1790684310843-about-vision-icon.webp"
               },
               {
                 "id": 2,
                 "title": "Our Mission",
                 "subTitle": "Empower restaurants with practical technology that simplifies menus, orders, kitchens, and delivery—so teams serve better and grow further.",
-                "icon": "/uploads/files-1790669633309-about-mission-icon.webp"
+                "icon": "/uploads/files-1790684310060-about-mission-icon.webp"
               }
             ]
           },
           {
             "id": "growBanner",
-            "image": "/uploads/files-1790669634952-pasta.webp",
+            "image": "/uploads/files-1790684311184-pasta.webp",
             "imageAlt": "Fresh pasta prepared in a restaurant kitchen"
           },
           {
@@ -558,7 +558,7 @@
             "title": "Great Food Deserves Great Operations.",
             "body": "Behind every successful food brand are outlets, menus, tickets, riders, and guest apps that must stay in sync. Safri brings those moving parts together so teams get control and clarity.",
             "callout": "Practical technology for operators who need speed on the floor and visibility across the brand.",
-            "image": "/uploads/files-1790669634149-about-us-left.webp",
+            "image": "/uploads/files-1790684310727-about-us-left.webp",
             "items": [
               {
                 "id": 1,
@@ -599,8 +599,8 @@
             "secondaryCtaText": "View packages",
             "secondaryCtaPath": "#packages",
             "images": {
-              "laptop": "/uploads/files-1790668803158-feature-1-laptop.png",
-              "menu": "/uploads/files-1790668803309-feature-1-menu.png"
+              "laptop": "/uploads/files-1790684308895-feature-1-laptop.webp",
+              "menu": "/uploads/files-1790684309063-feature-1-menu.webp"
             }
           },
           {
@@ -628,8 +628,8 @@
                 "primaryCtaPath": "/services/online-ordering",
                 "secondaryCtaText": "Book a demo",
                 "secondaryCtaPath": "/contact",
-                "image": "/uploads/files-1790668803158-feature-1-laptop.png",
-                "imageOverlay": "/uploads/files-1790668803309-feature-1-menu.png",
+                "image": "/uploads/files-1790684308895-feature-1-laptop.webp",
+                "imageOverlay": "/uploads/files-1790684309063-feature-1-menu.webp",
                 "imageAlt": "Safri online ordering dashboard on laptop"
               },
               {
@@ -654,7 +654,7 @@
                 "primaryCtaPath": "/services/delivery",
                 "secondaryCtaText": "Book a demo",
                 "secondaryCtaPath": "/contact",
-                "image": "/uploads/files-1790668803646-feature-3-delivery.webp",
+                "image": "/uploads/files-1790684309398-feature-3-delivery.webp",
                 "imageAlt": "Safri delivery tracking and rider experience"
               },
               {
@@ -682,7 +682,7 @@
                 "primaryCtaPath": "/services/operations",
                 "secondaryCtaText": "Book a demo",
                 "secondaryCtaPath": "/contact",
-                "image": "/uploads/files-1790668803481-feature-2-branches.webp",
+                "image": "/uploads/files-1790684309223-feature-2-branches.webp",
                 "imageAlt": "Safri multi-outlet operations overview"
               }
             ]
@@ -694,7 +694,7 @@
             "body": "Manage delivery app orders, outlets, kitchens, and guest channels from one powerful dashboard—streamline operations, reduce errors, and handle every order with speed.",
             "ctaText": "See features",
             "ctaPath": "/services/360",
-            "image": "/uploads/files-1790668803820-feature-4-revenue.webp",
+            "image": "/uploads/files-1790684309677-feature-4-revenue.webp",
             "imageAlt": "Safri growth and revenue analytics"
           },
           {
@@ -729,8 +729,8 @@
             "primaryCtaPath": "/contact",
             "secondaryCtaText": "See outcomes",
             "secondaryCtaPath": "#built-for",
-            "image": "/uploads/files-1790668803158-feature-1-laptop.png",
-            "imageOverlay": "/uploads/files-1790668803309-feature-1-menu.png",
+            "image": "/uploads/files-1790684308895-feature-1-laptop.webp",
+            "imageOverlay": "/uploads/files-1790684309063-feature-1-menu.webp",
             "imageAlt": "Safri online ordering dashboard on laptop"
           },
           {
@@ -865,7 +865,7 @@
             ],
             "ctaText": "Book a demo",
             "ctaPath": "/contact",
-            "bgImg": "/uploads/files-1790668233902-bg-sales.jpg",
+            "bgImg": "/uploads/files-1790684308506-bg-sales.jpg",
             "subTitle": "Start free today — set up in under 5 minutes.",
             "secondaryCtaText": "See packages",
             "secondaryCtaPath": "/services",
@@ -908,7 +908,7 @@
             "primaryCtaPath": "/contact",
             "secondaryCtaText": "See outcomes",
             "secondaryCtaPath": "#built-for",
-            "image": "/uploads/files-1790668803646-feature-3-delivery.webp",
+            "image": "/uploads/files-1790684309398-feature-3-delivery.webp",
             "imageAlt": "Safri delivery tracking and rider experience"
           },
           {
@@ -1043,7 +1043,7 @@
             ],
             "ctaText": "Book a demo",
             "ctaPath": "/contact",
-            "bgImg": "/uploads/files-1790668233902-bg-sales.jpg",
+            "bgImg": "/uploads/files-1790684308506-bg-sales.jpg",
             "subTitle": "Start free today — set up in under 5 minutes.",
             "secondaryCtaText": "See packages",
             "secondaryCtaPath": "/services",
@@ -1086,7 +1086,7 @@
             "primaryCtaPath": "/contact",
             "secondaryCtaText": "See outcomes",
             "secondaryCtaPath": "#built-for",
-            "image": "/uploads/files-1790668803481-feature-2-branches.webp",
+            "image": "/uploads/files-1790684309223-feature-2-branches.webp",
             "imageAlt": "Safri multi-outlet operations overview"
           },
           {
@@ -1221,7 +1221,7 @@
             ],
             "ctaText": "Book a demo",
             "ctaPath": "/contact",
-            "bgImg": "/uploads/files-1790668233902-bg-sales.jpg",
+            "bgImg": "/uploads/files-1790684308506-bg-sales.jpg",
             "subTitle": "Start free today — set up in under 5 minutes.",
             "secondaryCtaText": "See packages",
             "secondaryCtaPath": "/services",
@@ -1264,7 +1264,7 @@
             "primaryCtaPath": "/contact",
             "secondaryCtaText": "See outcomes",
             "secondaryCtaPath": "#built-for",
-            "image": "/uploads/files-1790668803820-feature-4-revenue.webp",
+            "image": "/uploads/files-1790684309677-feature-4-revenue.webp",
             "imageAlt": "Safri growth and revenue analytics"
           },
           {
@@ -1399,7 +1399,7 @@
             ],
             "ctaText": "Book a demo",
             "ctaPath": "/contact",
-            "bgImg": "/uploads/files-1790668233902-bg-sales.jpg",
+            "bgImg": "/uploads/files-1790684308506-bg-sales.jpg",
             "subTitle": "Start free today — set up in under 5 minutes.",
             "secondaryCtaText": "See packages",
             "secondaryCtaPath": "/services",
@@ -1432,8 +1432,8 @@
             "secondaryCtaText": "View solutions",
             "secondaryCtaPath": "/services",
             "images": {
-              "laptop": "/uploads/files-1790668803158-feature-1-laptop.png",
-              "menu": "/uploads/files-1790668803309-feature-1-menu.png"
+              "laptop": "/uploads/files-1790684308895-feature-1-laptop.webp",
+              "menu": "/uploads/files-1790684309063-feature-1-menu.webp"
             }
           },
           {
@@ -1475,8 +1475,8 @@
             "label": "FAQ",
             "title": "Everything You Need To Know",
             "subTitle": "Quick answers about Safri packages, setup, multi-outlet operations, and restaurant ordering apps.",
-            "image": "/uploads/files-1790668803646-feature-3-delivery.webp",
-            "leafImage": "/uploads/files-1790669635735-leaf-left.webp",
+            "image": "/uploads/files-1790684309398-feature-3-delivery.webp",
+            "leafImage": "/uploads/files-1790684311714-leaf-left.webp",
             "items": [
               {
                 "id": 1,

@@ -1,25 +1,34 @@
-import { apiUrl } from "../config/env";
-import type {
-  ApiListResponse,
-  TenantContentDocument,
-  TenantSiteContent,
-} from "../types/content";
-import { authorizedFetch } from "./http";
+import { apiUrl, TENANT_DOMAIN } from "../config/env";
+import type { ApiListResponse, TenantSiteContent } from "../types/content";
+
+type PublicTenantContentData = {
+  content: TenantSiteContent;
+  _id?: string;
+  tenantId?: string;
+  createdAt?: string;
+  updatedAt?: string;
+};
 
 export const fetchTenantContent = async (): Promise<TenantSiteContent> => {
-  const response = await authorizedFetch(apiUrl("/api/v1/tenant-contents"));
+  const query = new URLSearchParams({ domain: TENANT_DOMAIN });
+  const response = await fetch(
+    apiUrl(`/api/v1/public/tenant-contents?${query.toString()}`),
+    {
+      headers: { Accept: "application/json" },
+    },
+  );
 
   if (!response.ok) {
     throw new Error(`Failed to load tenant content (${response.status})`);
   }
 
   const payload =
-    (await response.json()) as ApiListResponse<TenantContentDocument[]>;
+    (await response.json()) as ApiListResponse<PublicTenantContentData>;
 
-  const latest = payload.data?.[0];
-  if (!latest?.content) {
+  const content = payload.data?.content;
+  if (!content) {
     throw new Error("No tenant content returned from the API");
   }
 
-  return latest.content;
+  return content;
 };
