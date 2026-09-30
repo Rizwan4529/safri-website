@@ -1,6 +1,5 @@
 import AboutUsSection from "../sections/AboutUsSection";
 import ContactSection from "../sections/ContactSection";
-import FeaturesSection from "../sections/FeaturesSection";
 import HeroSection from "../sections/HeroSection";
 import MobileAppSection from "../sections/MobileAppSection";
 import ModernBusinessSection from "../sections/ModernBusinessSection";
@@ -16,7 +15,6 @@ const HomePage = () => {
       <AboutUsSection />
       <StatsSection />
       <RestaurantNeedsSection />
-      <FeaturesSection />
       <PackagesSection pageId="home" />
       <Safri360Section pageId="home" />
       <MobileAppSection />
