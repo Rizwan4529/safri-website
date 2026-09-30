@@ -18,6 +18,8 @@ const EnterpriseSection = () => {
   );
   const titleLines = section?.titleLines ?? [];
 
+  if (!section?.label && titleLines.length === 0) return null;
+
   return (
     <section id="enterprise" className="relative overflow-x-clip bg-surface">
       <div className="mx-auto max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-10 lg:py-24">

@@ -113,6 +113,8 @@ const FeaturesSection = () => {
   const total = String(items.length).padStart(2, "0");
   const leafSrc = mediaUrl(section?.leafImage);
 
+  if (!section?.title && items.length === 0) return null;
+
   return (
     <section id="features" className="relative overflow-x-clip bg-surface">
       {leafSrc ? (

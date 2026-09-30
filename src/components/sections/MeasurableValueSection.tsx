@@ -26,6 +26,8 @@ const MeasurableValueSection = () => {
   const items = section?.items ?? [];
   const image = mediaUrl(section?.image);
 
+  if (!section?.title && items.length === 0) return null;
+
   return (
     <section className="relative overflow-x-clip bg-surface-subtle">
       <div className="mx-auto max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-10 lg:py-24">

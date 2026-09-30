@@ -16,6 +16,8 @@ const GrowthBannerSection = () => {
   const titleLines = section?.titleLines ?? [];
   const bgSrc = mediaUrl(section?.bgImg);
 
+  if (titleLines.length === 0 && !bgSrc) return null;
+
   return (
     <section className="relative overflow-x-clip">
       {bgSrc ? (
