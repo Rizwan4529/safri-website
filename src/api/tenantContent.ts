@@ -1,4 +1,4 @@
-import { apiUrl, TENANT_DOMAIN } from "../config/env";
+import { apiUrl, getTenantDomain } from "../config/env";
 import type { ApiListResponse, TenantSiteContent } from "../types/content";
 
 type PublicTenantContentData = {
@@ -10,7 +10,7 @@ type PublicTenantContentData = {
 };
 
 export const fetchTenantContent = async (): Promise<TenantSiteContent> => {
-  const query = new URLSearchParams({ domain: TENANT_DOMAIN });
+  const query = new URLSearchParams({ domain: getTenantDomain() });
   const response = await fetch(
     apiUrl(`/api/v1/public/tenant-contents?${query.toString()}`),
     {
