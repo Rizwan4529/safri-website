@@ -4,6 +4,7 @@ import HeroSection from "../sections/HeroSection";
 import MobileAppSection from "../sections/MobileAppSection";
 import ModernBusinessSection from "../sections/ModernBusinessSection";
 import PackagesSection from "../sections/PackagesSection";
+import PricingSection from "../sections/PricingSection";
 import RestaurantNeedsSection from "../sections/RestaurantNeedsSection";
 import Safri360Section from "../sections/Safri360Section";
 import StatsSection from "../sections/StatsSection";
@@ -16,6 +17,7 @@ const HomePage = () => {
       <StatsSection />
       <RestaurantNeedsSection />
       <PackagesSection pageId="home" />
+      <PricingSection pageId="home" />
       <Safri360Section pageId="home" />
       <MobileAppSection />
       <ModernBusinessSection />

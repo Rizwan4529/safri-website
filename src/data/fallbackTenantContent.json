@@ -50,25 +50,25 @@
                 "children": [
                   {
                     "id": 31,
-                    "title": "Online Ordering",
-                    "path": "/services/online-ordering"
+                    "title": "Safri Free",
+                    "path": "/services/free"
                   },
                   {
                     "id": 32,
-                    "title": "Delivery",
-                    "path": "/services/delivery"
+                    "title": "Safri Plus",
+                    "path": "/services/plus"
                   },
                   {
                     "id": 33,
-                    "title": "Operations",
-                    "path": "/services/operations"
-                  },
-                  {
-                    "id": 34,
                     "title": "Safri 360°",
                     "path": "/services/360"
                   }
                 ]
+              },
+              {
+                "id": 5,
+                "title": "Pricing",
+                "path": "#pricing"
               },
               {
                 "id": 4,
@@ -76,8 +76,8 @@
                 "path": "/contact"
               }
             ],
-            "ctaText": "Book a demo",
-            "ctaPath": "/contact"
+            "signInText": "Sign in",
+            "signInUrl": "https://app.safri.food/"
           }
         ]
       },
@@ -109,6 +109,11 @@
                 "id": 3,
                 "title": "Services",
                 "path": "/services"
+              },
+              {
+                "id": 4,
+                "title": "Pricing",
+                "path": "#pricing"
               }
             ]
           },
@@ -118,21 +123,16 @@
             "items": [
               {
                 "id": 1,
-                "title": "Online Ordering",
-                "path": "/services/online-ordering"
+                "title": "Safri Free",
+                "path": "/services/free"
               },
               {
                 "id": 2,
-                "title": "Delivery",
-                "path": "/services/delivery"
+                "title": "Safri Plus",
+                "path": "/services/plus"
               },
               {
                 "id": 3,
-                "title": "Operations",
-                "path": "/services/operations"
-              },
-              {
-                "id": 4,
                 "title": "Safri 360°",
                 "path": "/services/360"
               }
@@ -305,25 +305,26 @@
             "id": "packages",
             "label": "Safri Solutions",
             "title": "One platform. Powerful products.",
-            "subTitle": "Choose your solution. Increase sales. Reduce costs.",
+            "subTitle": "Three plans, one platform. Start free and upgrade as your restaurant grows.",
             "items": [
               {
-                "id": "online-ordering",
-                "slug": "online-ordering",
-                "tabLabel": "Online Ordering",
+                "id": "free",
+                "slug": "free",
+                "tabLabel": "Safri Free",
                 "dotTone": "accent",
                 "index": "01",
-                "badge": "ORDER",
-                "title": "Modernize your online ordering experience",
-                "body": "Delight guests with branded web and mobile ordering, live menus, and sales analytics—so your restaurant owns the direct channel.",
+                "badge": "FREE",
+                "title": "Start selling online with Safri Free",
+                "body": "Launch a mobile-first ordering website on your Safri subdomain and start taking pickup and cash orders for a single outlet—at no cost.",
                 "features": [
-                  "Restaurant management system",
-                  "Mobile-first website",
-                  "Online ordering",
-                  "Sales and analytics"
+                  "Mobile-first website on a Safri subdomain",
+                  "Online ordering with pickup & curbside",
+                  "Cash payments",
+                  "Menu & order management",
+                  "Basic sales & analytics"
                 ],
                 "primaryCtaText": "Learn more",
-                "primaryCtaPath": "/services/online-ordering",
+                "primaryCtaPath": "/services/free",
                 "secondaryCtaText": "Book a demo",
                 "secondaryCtaPath": "/contact",
                 "image": "/uploads/files-1790156270469-feature-1-laptop.webp",
@@ -331,53 +332,48 @@
                 "imageAlt": "Safri online ordering dashboard on laptop"
               },
               {
-                "id": "delivery",
-                "slug": "delivery",
-                "tabLabel": "Delivery",
+                "id": "plus",
+                "slug": "plus",
+                "tabLabel": "Safri Plus",
                 "dotTone": "brand",
                 "index": "02",
-                "badge": "DELIVER",
-                "title": "Modernize your delivery experience",
-                "body": "Run reliable delivery with outlet control, live tracking, and promotions—while keeping online ordering and analytics in the same stack.",
+                "badge": "PLUS",
+                "title": "Grow with payments, delivery & multiple outlets",
+                "body": "Accept online payments, connect delivery services, and run up to five outlets from one dashboard—on your own custom domain.",
                 "features": [
-                  "Restaurant management system",
-                  "Outlet management",
-                  "Mobile-first website",
-                  "Online ordering",
-                  "Sales and analytics",
-                  "Delivery service",
-                  "Discounts and deals"
+                  "Custom domain",
+                  "Online payment gateway & multiple payment options",
+                  "Delivery service integration",
+                  "Discounts & deals",
+                  "Up to 5 outlets",
+                  "Standard sales & analytics"
                 ],
                 "primaryCtaText": "Learn more",
-                "primaryCtaPath": "/services/delivery",
+                "primaryCtaPath": "/services/plus",
                 "secondaryCtaText": "Book a demo",
                 "secondaryCtaPath": "/contact",
                 "image": "/uploads/files-1790156275396-feature-3-delivery.webp",
                 "imageAlt": "Safri delivery tracking and rider experience"
               },
               {
-                "id": "operations",
-                "slug": "operations",
-                "tabLabel": "Operations",
+                "id": "360",
+                "slug": "360",
+                "tabLabel": "Safri 360°",
                 "dotTone": "brandDark",
                 "index": "03",
-                "badge": "OPS",
-                "title": "Run kitchen, floor, and outlets in sync",
-                "body": "Connect kitchen, waiter, and Android apps with delivery and ordering workflows so every ticket moves faster with fewer errors.",
+                "badge": "360°",
+                "title": "Run your complete restaurant digital ecosystem",
+                "body": "Everything in Plus, with your own Android & iOS apps, a dedicated kitchen app, WhatsApp ordering, and unlimited outlets.",
                 "features": [
-                  "Kitchen app",
-                  "Android app",
-                  "Waiter app",
-                  "Restaurant management system",
-                  "Outlet management",
-                  "Mobile-first website",
-                  "Online ordering",
-                  "Sales and analytics",
-                  "Delivery service",
-                  "Discounts and deals"
+                  "Branded mobile apps for Android & iOS",
+                  "Dedicated kitchen app for Android & iOS",
+                  "WhatsApp ordering",
+                  "Unlimited outlets",
+                  "Advanced analytics, deals & branding",
+                  "Priority 24×7 support"
                 ],
                 "primaryCtaText": "Learn more",
-                "primaryCtaPath": "/services/operations",
+                "primaryCtaPath": "/services/360",
                 "secondaryCtaText": "Book a demo",
                 "secondaryCtaPath": "/contact",
                 "image": "/uploads/files-1790156273935-feature-2-branches.webp",
@@ -386,10 +382,237 @@
             ]
           },
           {
+            "id": "pricing",
+            "label": "Pricing & Plans",
+            "title": "Simple plans that grow with your restaurant",
+            "subTitle": "Flexible plans for restaurants—from launching online to running a full digital operation.",
+            "monthlyLabel": "Monthly",
+            "yearlyLabel": "Yearly",
+            "currency": "SAR",
+            "popularLabel": "Most popular",
+            "compareLabel": "Compare all features",
+            "plans": [
+              {
+                "id": "free",
+                "name": "Safri Free",
+                "tagline": "Start selling online",
+                "description": "Essential online ordering for a single outlet.",
+                "monthlyPrice": 0,
+                "yearlyPrice": 0,
+                "featuresTitle": "What's included",
+                "features": [
+                  "Mobile-first website",
+                  "Safri subdomain",
+                  "Online ordering",
+                  "Pickup & curbside",
+                  "Cash payments",
+                  "Menu & order management",
+                  "Basic sales & analytics",
+                  "Basic custom branding",
+                  "1 outlet",
+                  "Standard support"
+                ],
+                "ctaText": "Get started free",
+                "detailsPath": "/services/free"
+              },
+              {
+                "id": "plus",
+                "name": "Safri Plus",
+                "tagline": "Grow with payments & delivery",
+                "description": "Payments, delivery and multi-outlet management.",
+                "monthlyPrice": 79,
+                "yearlyPrice": 750,
+                "feeNote": "+ 2.5% online payment fee",
+                "popular": true,
+                "featuresTitle": "Everything in Free, plus",
+                "features": [
+                  "Custom domain",
+                  "Online payment gateway",
+                  "Multiple payment options",
+                  "Delivery service integration",
+                  "Discounts & deals",
+                  "Standard sales & analytics",
+                  "Standard custom branding",
+                  "Up to 5 outlets"
+                ],
+                "ctaText": "Book a demo",
+                "detailsPath": "/services/plus"
+              },
+              {
+                "id": "360",
+                "name": "Safri 360°",
+                "tagline": "Run the full operation",
+                "description": "Complete restaurant digital ecosystem.",
+                "monthlyPrice": 250,
+                "yearlyPrice": 2400,
+                "feeNote": "+ 2.5% online payment fee",
+                "featuresTitle": "Everything in Plus, plus",
+                "features": [
+                  "Mobile apps — Android & iOS",
+                  "Dedicated kitchen app — Android & iOS",
+                  "WhatsApp ordering",
+                  "Advanced discounts & deals",
+                  "Advanced sales & analytics",
+                  "Advanced custom branding",
+                  "Unlimited outlets",
+                  "Priority 24×7 support"
+                ],
+                "ctaText": "Book a demo",
+                "detailsPath": "/services/360"
+              }
+            ],
+            "comparison": [
+              {
+                "feature": "Mobile-first website",
+                "values": [
+                  true,
+                  true,
+                  true
+                ]
+              },
+              {
+                "feature": "Safri subdomain",
+                "values": [
+                  true,
+                  true,
+                  true
+                ]
+              },
+              {
+                "feature": "Custom domain",
+                "values": [
+                  false,
+                  true,
+                  true
+                ]
+              },
+              {
+                "feature": "Online ordering",
+                "values": [
+                  true,
+                  true,
+                  true
+                ]
+              },
+              {
+                "feature": "Pickup & curbside",
+                "values": [
+                  true,
+                  true,
+                  true
+                ]
+              },
+              {
+                "feature": "Cash payments",
+                "values": [
+                  true,
+                  true,
+                  true
+                ]
+              },
+              {
+                "feature": "Online payment gateway",
+                "values": [
+                  false,
+                  true,
+                  true
+                ]
+              },
+              {
+                "feature": "Multiple payment options",
+                "values": [
+                  false,
+                  true,
+                  true
+                ]
+              },
+              {
+                "feature": "Delivery service integration",
+                "values": [
+                  false,
+                  true,
+                  true
+                ]
+              },
+              {
+                "feature": "Sales & analytics",
+                "values": [
+                  "Basic",
+                  "Standard",
+                  "Advanced"
+                ]
+              },
+              {
+                "feature": "Discounts & deals",
+                "values": [
+                  false,
+                  true,
+                  "Advanced"
+                ]
+              },
+              {
+                "feature": "Menu & order management",
+                "values": [
+                  true,
+                  true,
+                  true
+                ]
+              },
+              {
+                "feature": "Outlet management",
+                "values": [
+                  "1 outlet",
+                  "5 outlets",
+                  "Unlimited"
+                ]
+              },
+              {
+                "feature": "Mobile apps — Android & iOS",
+                "values": [
+                  false,
+                  false,
+                  true
+                ]
+              },
+              {
+                "feature": "Dedicated kitchen app — Android & iOS",
+                "values": [
+                  false,
+                  false,
+                  true
+                ]
+              },
+              {
+                "feature": "WhatsApp ordering",
+                "values": [
+                  false,
+                  false,
+                  true
+                ]
+              },
+              {
+                "feature": "Custom branding",
+                "values": [
+                  "Basic",
+                  "Standard",
+                  "Advanced"
+                ]
+              },
+              {
+                "feature": "Support",
+                "values": [
+                  "Standard",
+                  "Standard",
+                  "Priority 24×7"
+                ]
+              }
+            ]
+          },
+          {
             "id": "safri360",
             "label": "Safri 360°",
-            "title": "Modernize your delivery operations with Safri 360°",
-            "body": "Manage delivery app orders, outlets, kitchens, and guest channels from one powerful dashboard—streamline operations, reduce errors, and handle every order with speed.",
+            "title": "Run your complete restaurant digital ecosystem with Safri 360°",
+            "body": "Branded Android & iOS apps, a dedicated kitchen app, WhatsApp ordering, and unlimited outlets—managed from one powerful dashboard with priority 24×7 support.",
             "ctaText": "See features",
             "ctaPath": "/services/360",
             "image": "/uploads/files-1790156277052-feature-4-revenue.webp",
@@ -463,7 +686,7 @@
             "id": "contactForm",
             "label": "Contact Us",
             "title": "Partner With Safri",
-            "subTitle": "Tell us about your restaurants and outlets. We will map the right package—Online Ordering, Delivery, Operations, or Safri 360°.",
+            "subTitle": "Tell us about your restaurants and outlets. We will map the right plan—Safri Free, Safri Plus, or Safri 360°.",
             "submitLabel": "Register Your Restaurant",
             "successToast": "Thanks — our team will reach out about your restaurant shortly.",
             "fields": [
@@ -593,7 +816,7 @@
           {
             "id": "serveBetterHero",
             "title": "One platform. Powerful products.",
-            "body": "Choose Online Ordering, Delivery, Operations, or Safri 360°—each package builds on the last so you can grow without switching systems.",
+            "body": "Choose Safri Free, Safri Plus, or Safri 360°—each plan builds on the last so you can grow without switching systems.",
             "primaryCtaText": "Book a demo",
             "primaryCtaPath": "/contact",
             "secondaryCtaText": "View packages",
@@ -607,25 +830,26 @@
             "id": "packages",
             "label": "Safri Solutions",
             "title": "Choose your solution",
-            "subTitle": "Increase sales. Reduce costs. Scale outlets with confidence.",
+            "subTitle": "Start free, add payments and delivery, or run the complete digital operation.",
             "items": [
               {
-                "id": "online-ordering",
-                "slug": "online-ordering",
-                "tabLabel": "Online Ordering",
+                "id": "free",
+                "slug": "free",
+                "tabLabel": "Safri Free",
                 "dotTone": "accent",
                 "index": "01",
-                "badge": "ORDER",
-                "title": "Modernize your online ordering experience",
-                "body": "Delight guests with branded web and mobile ordering, live menus, and sales analytics—so your restaurant owns the direct channel.",
+                "badge": "FREE",
+                "title": "Start selling online with Safri Free",
+                "body": "Launch a mobile-first ordering website on your Safri subdomain and start taking pickup and cash orders for a single outlet—at no cost.",
                 "features": [
-                  "Restaurant management system",
-                  "Mobile-first website",
-                  "Online ordering",
-                  "Sales and analytics"
+                  "Mobile-first website on a Safri subdomain",
+                  "Online ordering with pickup & curbside",
+                  "Cash payments",
+                  "Menu & order management",
+                  "Basic sales & analytics"
                 ],
                 "primaryCtaText": "Learn more",
-                "primaryCtaPath": "/services/online-ordering",
+                "primaryCtaPath": "/services/free",
                 "secondaryCtaText": "Book a demo",
                 "secondaryCtaPath": "/contact",
                 "image": "/uploads/files-1790156270469-feature-1-laptop.webp",
@@ -633,53 +857,48 @@
                 "imageAlt": "Safri online ordering dashboard on laptop"
               },
               {
-                "id": "delivery",
-                "slug": "delivery",
-                "tabLabel": "Delivery",
+                "id": "plus",
+                "slug": "plus",
+                "tabLabel": "Safri Plus",
                 "dotTone": "brand",
                 "index": "02",
-                "badge": "DELIVER",
-                "title": "Modernize your delivery experience",
-                "body": "Run reliable delivery with outlet control, live tracking, and promotions—while keeping online ordering and analytics in the same stack.",
+                "badge": "PLUS",
+                "title": "Grow with payments, delivery & multiple outlets",
+                "body": "Accept online payments, connect delivery services, and run up to five outlets from one dashboard—on your own custom domain.",
                 "features": [
-                  "Restaurant management system",
-                  "Outlet management",
-                  "Mobile-first website",
-                  "Online ordering",
-                  "Sales and analytics",
-                  "Delivery service",
-                  "Discounts and deals"
+                  "Custom domain",
+                  "Online payment gateway & multiple payment options",
+                  "Delivery service integration",
+                  "Discounts & deals",
+                  "Up to 5 outlets",
+                  "Standard sales & analytics"
                 ],
                 "primaryCtaText": "Learn more",
-                "primaryCtaPath": "/services/delivery",
+                "primaryCtaPath": "/services/plus",
                 "secondaryCtaText": "Book a demo",
                 "secondaryCtaPath": "/contact",
                 "image": "/uploads/files-1790156275396-feature-3-delivery.webp",
                 "imageAlt": "Safri delivery tracking and rider experience"
               },
               {
-                "id": "operations",
-                "slug": "operations",
-                "tabLabel": "Operations",
+                "id": "360",
+                "slug": "360",
+                "tabLabel": "Safri 360°",
                 "dotTone": "brandDark",
                 "index": "03",
-                "badge": "OPS",
-                "title": "Run kitchen, floor, and outlets in sync",
-                "body": "Connect kitchen, waiter, and Android apps with delivery and ordering workflows so every ticket moves faster with fewer errors.",
+                "badge": "360°",
+                "title": "Run your complete restaurant digital ecosystem",
+                "body": "Everything in Plus, with your own Android & iOS apps, a dedicated kitchen app, WhatsApp ordering, and unlimited outlets.",
                 "features": [
-                  "Kitchen app",
-                  "Android app",
-                  "Waiter app",
-                  "Restaurant management system",
-                  "Outlet management",
-                  "Mobile-first website",
-                  "Online ordering",
-                  "Sales and analytics",
-                  "Delivery service",
-                  "Discounts and deals"
+                  "Branded mobile apps for Android & iOS",
+                  "Dedicated kitchen app for Android & iOS",
+                  "WhatsApp ordering",
+                  "Unlimited outlets",
+                  "Advanced analytics, deals & branding",
+                  "Priority 24×7 support"
                 ],
                 "primaryCtaText": "Learn more",
-                "primaryCtaPath": "/services/operations",
+                "primaryCtaPath": "/services/360",
                 "secondaryCtaText": "Book a demo",
                 "secondaryCtaPath": "/contact",
                 "image": "/uploads/files-1790156273935-feature-2-branches.webp",
@@ -690,8 +909,8 @@
           {
             "id": "safri360",
             "label": "Safri 360°",
-            "title": "Modernize your delivery operations with Safri 360°",
-            "body": "Manage delivery app orders, outlets, kitchens, and guest channels from one powerful dashboard—streamline operations, reduce errors, and handle every order with speed.",
+            "title": "Run your complete restaurant digital ecosystem with Safri 360°",
+            "body": "Branded Android & iOS apps, a dedicated kitchen app, WhatsApp ordering, and unlimited outlets—managed from one powerful dashboard with priority 24×7 support.",
             "ctaText": "See features",
             "ctaPath": "/services/360",
             "image": "/uploads/files-1790156277052-feature-4-revenue.webp",
@@ -701,14 +920,14 @@
             "id": "contactForm",
             "label": "Contact Us",
             "title": "Partner With Safri",
-            "subTitle": "Tell us which package fits your restaurants—Online Ordering, Delivery, Operations, or Safri 360°.",
+            "subTitle": "Tell us which plan fits your restaurants—Safri Free, Safri Plus, or Safri 360°.",
             "submitLabel": "Register Your Restaurant",
             "successToast": "Thanks — our team will reach out about your restaurant shortly."
           }
         ]
       },
       {
-        "id": "service-online-ordering",
+        "id": "service-free",
         "sections": [
           {
             "id": "theme",
@@ -720,11 +939,11 @@
           },
           {
             "id": "hero",
-            "label": "Online Ordering",
-            "badge": "ORDER",
-            "title": "Modernize your online ordering experience with Safri",
+            "label": "Safri Free",
+            "badge": "FREE",
+            "title": "Start selling online for free with Safri",
             "titleAccent": "Safri",
-            "body": "Give guests a branded path to order—while your team keeps menus, availability, and sales visibility in one calm workflow.",
+            "body": "Launch a mobile-first ordering website on your Safri subdomain and take pickup, curbside, and cash orders for your outlet—no subscription needed.",
             "primaryCtaText": "Contact us",
             "primaryCtaPath": "/contact",
             "secondaryCtaText": "See outcomes",
@@ -735,76 +954,76 @@
           },
           {
             "id": "intro",
-            "label": "For modern brands",
-            "title": "Built for restaurants that want guests ordering on their terms",
-            "body": "When the direct channel is clear, teams spend less time chasing marketplace noise and more time serving profitable demand."
+            "label": "Start online",
+            "title": "Built for restaurants taking their first step into direct ordering",
+            "body": "Get your menu online, take orders under your own brand, and learn what your guests love—before committing to a paid plan."
           },
           {
             "id": "value",
-            "label": "Why this package",
+            "label": "Why Safri Free",
             "title": "Adding measurable value to your business",
             "titleAccent": "to your business",
-            "body": "Online Ordering is about stronger guest relationships—not another disconnected storefront bolted onto your ops.",
+            "body": "Safri Free gives a single outlet everything it needs to start selling online—without setup fees or monthly costs.",
             "ctaText": "Get started",
             "ctaPath": "/contact",
             "cards": [
               {
                 "id": 1,
-                "title": "Brand-first checkout",
-                "body": "Guests stay in your experience from browse to pay—so loyalty accrues to you, not a marketplace."
+                "title": "Mobile-first website",
+                "body": "A fast ordering site that feels native on phones, live on your Safri subdomain."
               },
               {
                 "id": 2,
-                "title": "Mobile-ready journeys",
-                "body": "Ordering paths feel native on phones, where most guests decide and convert."
+                "title": "Pickup & curbside",
+                "body": "Let guests order ahead and collect in-store or from the curb—on their schedule."
               },
               {
                 "id": 3,
-                "title": "Clearer demand signals",
-                "body": "See which items and dayparts pull volume so menus and staffing stay intentional."
+                "title": "Menu & order control",
+                "body": "Update items, prices, and availability, and manage every incoming order in one place."
               },
               {
                 "id": 4,
-                "title": "Less channel friction",
-                "body": "Reduce the juggling of one-off tools that slow menu updates and confuse staff."
+                "title": "Basic sales insights",
+                "body": "See what sells and when, so menus and staffing stay intentional from day one."
               }
             ]
           },
           {
             "id": "builtFor",
             "label": "Operator outcomes",
-            "title": "Built for teams that want steadier direct growth",
-            "titleAccent": "direct growth",
+            "title": "Built for outlets ready to own their first direct channel",
+            "titleAccent": "direct channel",
             "items": [
               {
                 "id": 1,
-                "title": "Fewer abandoned guest journeys",
-                "body": "A focused ordering flow keeps guests moving instead of bouncing between apps."
+                "title": "Online in minutes",
+                "body": "Publish your menu and start accepting orders without a development project."
               },
               {
                 "id": 2,
-                "title": "Stronger repeat ordering habits",
-                "body": "Familiar branding and saved preferences encourage guests to come back directly."
+                "title": "Zero subscription cost",
+                "body": "Sell online on the Free plan and only upgrade when your volume calls for it."
               },
               {
                 "id": 3,
-                "title": "Faster menu decisions",
-                "body": "Live availability and sales cues help managers adjust without waiting on weekly reports."
+                "title": "Your brand, not a marketplace",
+                "body": "Basic custom branding keeps guests in your experience from browse to checkout."
               },
               {
                 "id": 4,
-                "title": "Cleaner guest communication",
-                "body": "Order status stays tied to your brand experience, not a third-party inbox."
+                "title": "Simple cash handling",
+                "body": "Accept cash on pickup and curbside while you get comfortable with online ordering."
               },
               {
                 "id": 5,
-                "title": "Healthier contribution margins",
-                "body": "Direct volume reduces the commission drag that creeps into marketplace-heavy mixes."
+                "title": "Clearer demand signals",
+                "body": "Basic analytics show which items and dayparts pull volume."
               },
               {
                 "id": 6,
-                "title": "Room to expand later",
-                "body": "Start with ordering clarity, then layer delivery and ops when your brand is ready."
+                "title": "An easy path to Plus",
+                "body": "Add payments, delivery, a custom domain, and more outlets without switching systems."
               }
             ]
           },
@@ -832,28 +1051,21 @@
           },
           {
             "id": "explore",
-            "title": "Explore other Safri packages",
+            "title": "Explore other Safri plans",
             "items": [
-              {
-                "id": "delivery",
-                "title": "Delivery",
-                "badge": "DELIVER",
-                "path": "/services/delivery",
-                "body": "Keep outlets, riders, and promotions moving in one flow."
-              },
-              {
-                "id": "operations",
-                "title": "Operations",
-                "badge": "OPS",
-                "path": "/services/operations",
-                "body": "Align kitchen, floor, and outlet teams during every rush."
-              },
               {
                 "id": "360",
                 "title": "Safri 360°",
                 "badge": "360°",
                 "path": "/services/360",
-                "body": "Connect ordering, delivery, ops, and marketing in one stack."
+                "body": "Branded apps, kitchen app, WhatsApp ordering, unlimited outlets."
+              },
+              {
+                "id": "plus",
+                "title": "Safri Plus",
+                "badge": "PLUS",
+                "path": "/services/plus",
+                "body": "Add online payments, delivery, and up to 5 outlets."
               }
             ]
           },
@@ -867,11 +1079,11 @@
             "ctaPath": "/contact",
             "bgImg": "/uploads/files-1790769209766-bg-sales.jpg",
             "subTitle": "Start free today — set up in under 5 minutes.",
-            "secondaryCtaText": "See packages",
-            "secondaryCtaPath": "/services",
-            "body": "Own your ordering channel with menus, analytics, and guest apps that keep revenue on your brand.",
+            "secondaryCtaText": "See pricing",
+            "secondaryCtaPath": "/#pricing",
+            "body": "Launch your ordering website, take pickup and cash orders, and keep revenue on your brand.",
             "points": [
-              "No card required",
+              "Free forever",
               "Instant setup",
               "Arabic support"
             ]
@@ -879,15 +1091,15 @@
           {
             "id": "contactForm",
             "label": "Contact Us",
-            "title": "Start with Online Ordering",
-            "subTitle": "Tell us about your brand and we will show how a direct ordering channel fits your outlets.",
+            "title": "Start with Safri Free",
+            "subTitle": "Tell us about your restaurant and we will help you launch your ordering website.",
             "submitLabel": "Register Your Restaurant",
             "successToast": "Thanks — our team will reach out about your restaurant shortly."
           }
         ]
       },
       {
-        "id": "service-delivery",
+        "id": "service-plus",
         "sections": [
           {
             "id": "theme",
@@ -899,11 +1111,11 @@
           },
           {
             "id": "hero",
-            "label": "Delivery",
-            "badge": "DELIVER",
-            "title": "Modernize your delivery experience with Safri",
+            "label": "Safri Plus",
+            "badge": "PLUS",
+            "title": "Grow with payments, delivery, and more outlets on Safri",
             "titleAccent": "Safri",
-            "body": "Move from reactive dispatch to a delivery rhythm your outlets can trust—tracking, promos, and ordering still in one stack.",
+            "body": "Accept online payments, connect delivery services, and manage up to five outlets from one dashboard—on your own custom domain.",
             "primaryCtaText": "Contact us",
             "primaryCtaPath": "/contact",
             "secondaryCtaText": "See outcomes",
@@ -913,76 +1125,76 @@
           },
           {
             "id": "intro",
-            "label": "Fulfillment focus",
-            "title": "Built for brands that treat delivery as an operations craft",
-            "body": "Reliable handoffs and outlet control turn delivery from a firefight into a repeatable growth channel."
+            "label": "Growth focus",
+            "title": "Built for brands ready to scale beyond a single outlet",
+            "body": "When payments, delivery, and outlets run in one flow, growth stops creating extra work for your team."
           },
           {
             "id": "value",
-            "label": "Why Delivery",
+            "label": "Why Safri Plus",
             "title": "Adding measurable value to your business",
             "titleAccent": "to your business",
-            "body": "Delivery should raise volume without raising confusion—across branches, riders, and guest expectations.",
+            "body": "Safri Plus adds everything a growing restaurant needs to sell more—online payments, delivery, deals, and multi-outlet control.",
             "ctaText": "Learn more",
             "ctaPath": "/contact",
             "cards": [
               {
                 "id": 1,
-                "title": "Outlet-aware fulfillment",
-                "body": "Route demand with branch context so each kitchen prepares what it can actually deliver well."
+                "title": "Online payments",
+                "body": "A built-in payment gateway with multiple payment options so guests check out the way they prefer."
               },
               {
                 "id": 2,
-                "title": "Live status for guests",
-                "body": "Transparent progress reduces “where is my order?” calls that stall the floor."
+                "title": "Delivery integration",
+                "body": "Connect delivery services so orders flow from checkout to the guest's door."
               },
               {
                 "id": 3,
-                "title": "Promotion lift with control",
-                "body": "Run deals that convert without breaking prep capacity or ticket accuracy."
+                "title": "Discounts & deals",
+                "body": "Run promotions that convert without breaking prep capacity or ticket accuracy."
               },
               {
                 "id": 4,
-                "title": "One stack, fewer gaps",
-                "body": "Ordering and delivery stay connected so staff are not reconciling two systems mid-rush."
+                "title": "Up to 5 outlets",
+                "body": "Manage menus, orders, and performance across branches from one dashboard."
               }
             ]
           },
           {
             "id": "builtFor",
             "label": "Operator outcomes",
-            "title": "Built for delivery teams that need calm under pressure",
-            "titleAccent": "calm under pressure",
+            "title": "Built for growing brands that need control at scale",
+            "titleAccent": "control at scale",
             "items": [
               {
                 "id": 1,
-                "title": "Shorter handoff windows",
-                "body": "Clearer dispatch cues help food leave the pass while it is still at peak quality."
+                "title": "Your own custom domain",
+                "body": "Move from a Safri subdomain to your brand's web address."
               },
               {
                 "id": 2,
-                "title": "Fewer address and timing misses",
-                "body": "Structured fulfillment details cut the costly re-deliveries that hurt margins."
+                "title": "Faster, cashless checkout",
+                "body": "Online payments cut friction at checkout and reduce cash handling at the counter."
               },
               {
                 "id": 3,
-                "title": "Better promo predictability",
-                "body": "Know which deals drive profitable volume instead of empty spikes."
+                "title": "Delivery that stays connected",
+                "body": "Delivery service integration keeps fulfillment tied to the orders your kitchen sees."
               },
               {
                 "id": 4,
                 "title": "Multi-branch consistency",
-                "body": "Standards travel with the brand even when each outlet has different peak patterns."
+                "body": "Standards travel with the brand across up to five outlets."
               },
               {
                 "id": 5,
-                "title": "Guest trust that compounds",
-                "body": "On-time, visible delivery builds the reputation that brings the next order back."
+                "title": "Better promo predictability",
+                "body": "Standard analytics show which deals drive profitable volume instead of empty spikes."
               },
               {
                 "id": 6,
-                "title": "A path into deeper ops",
-                "body": "When delivery is stable, kitchen and waiter workflows become the next natural upgrade."
+                "title": "Ready for Safri 360°",
+                "body": "Add branded apps, a kitchen app, and WhatsApp ordering when you are ready for the full ecosystem."
               }
             ]
           },
@@ -1010,28 +1222,21 @@
           },
           {
             "id": "explore",
-            "title": "Explore other Safri packages",
+            "title": "Explore other Safri plans",
             "items": [
-              {
-                "id": "online-ordering",
-                "title": "Online Ordering",
-                "badge": "ORDER",
-                "path": "/services/online-ordering",
-                "body": "Own the direct channel with branded web and mobile ordering."
-              },
-              {
-                "id": "operations",
-                "title": "Operations",
-                "badge": "OPS",
-                "path": "/services/operations",
-                "body": "Align kitchen, floor, and outlet teams during every rush."
-              },
               {
                 "id": "360",
                 "title": "Safri 360°",
                 "badge": "360°",
                 "path": "/services/360",
-                "body": "Connect ordering, delivery, ops, and marketing in one stack."
+                "body": "Branded apps, kitchen app, WhatsApp ordering, unlimited outlets."
+              },
+              {
+                "id": "free",
+                "title": "Safri Free",
+                "badge": "FREE",
+                "path": "/services/free",
+                "body": "Start selling online with essential ordering for one outlet."
               }
             ]
           },
@@ -1044,199 +1249,21 @@
             "ctaText": "Book a demo",
             "ctaPath": "/contact",
             "bgImg": "/uploads/files-1790769209766-bg-sales.jpg",
-            "subTitle": "Start free today — set up in under 5 minutes.",
-            "secondaryCtaText": "See packages",
-            "secondaryCtaPath": "/services",
-            "body": "Reliable delivery and outlet control that lifts volume without adding operational chaos.",
+            "subTitle": "79 SAR / month or 750 SAR / year + 2.5% online payment fee.",
+            "secondaryCtaText": "See pricing",
+            "secondaryCtaPath": "/#pricing",
+            "body": "Online payments, delivery integration, and multi-outlet control that lift volume without adding chaos.",
             "points": [
-              "Live tracking",
-              "Outlet ready",
-              "Promo control"
+              "Online payments",
+              "Delivery ready",
+              "Up to 5 outlets"
             ]
           },
           {
             "id": "contactForm",
             "label": "Contact Us",
-            "title": "Scale with Delivery",
-            "subTitle": "Share your delivery and outlet needs—we will walk you through the right setup.",
-            "submitLabel": "Register Your Restaurant",
-            "successToast": "Thanks — our team will reach out about your restaurant shortly."
-          }
-        ]
-      },
-      {
-        "id": "service-operations",
-        "sections": [
-          {
-            "id": "theme",
-            "accent": "#C44B2F",
-            "soft": "#FFF1EC",
-            "panel": "#FFDCD2",
-            "ctaFrom": "#C44B2F",
-            "ctaTo": "#9E3722"
-          },
-          {
-            "id": "hero",
-            "label": "Operations",
-            "badge": "OPS",
-            "title": "Run kitchen, floor, and outlets in sync with Safri",
-            "titleAccent": "Safri",
-            "body": "Connect the people who cook, serve, and fulfill—so rush hour feels coordinated instead of chaotic.",
-            "primaryCtaText": "Contact us",
-            "primaryCtaPath": "/contact",
-            "secondaryCtaText": "See outcomes",
-            "secondaryCtaPath": "#built-for",
-            "image": "/uploads/files-1790156273935-feature-2-branches.webp",
-            "imageAlt": "Safri multi-outlet operations overview"
-          },
-          {
-            "id": "intro",
-            "label": "Service rhythm",
-            "title": "Built for operators who win or lose in the dinner rush",
-            "body": "When kitchen and floor share the same truth, tickets move faster and guests feel the difference."
-          },
-          {
-            "id": "value",
-            "label": "Why Operations",
-            "title": "Adding measurable value to your business",
-            "titleAccent": "to your business",
-            "body": "Operations is where speed, accuracy, and staff confidence meet—especially across multiple outlets.",
-            "ctaText": "Get started",
-            "ctaPath": "/contact",
-            "cards": [
-              {
-                "id": 1,
-                "title": "Ticket clarity under load",
-                "body": "Prep stations see what matters next, reducing the rework that appears when volume spikes."
-              },
-              {
-                "id": 2,
-                "title": "Floor and kitchen alignment",
-                "body": "Service staff and cooks work from the same order state instead of guesswork."
-              },
-              {
-                "id": 3,
-                "title": "Outlet-ready workflows",
-                "body": "Standards hold as you add branches—without reinventing the rush every time."
-              },
-              {
-                "id": 4,
-                "title": "Fewer tools for staff",
-                "body": "Reduce the app-switching that slows training and creates avoidable mistakes."
-              }
-            ]
-          },
-          {
-            "id": "builtFor",
-            "label": "Operator outcomes",
-            "title": "Built for shifts that need speed without drama",
-            "titleAccent": "without drama",
-            "items": [
-              {
-                "id": 1,
-                "title": "Faster recovery during peaks",
-                "body": "Clear priorities help teams bounce back when the board fills up."
-              },
-              {
-                "id": 2,
-                "title": "Fewer wrong-item tickets",
-                "body": "Shared order context cuts the costly remakes that frustrate guests and staff."
-              },
-              {
-                "id": 3,
-                "title": "Smoother staff onboarding",
-                "body": "Consistent flows mean new team members ramp with less tribal knowledge."
-              },
-              {
-                "id": 4,
-                "title": "Better outlet visibility",
-                "body": "Managers spot bottlenecks across locations before they become tonight’s crisis."
-              },
-              {
-                "id": 5,
-                "title": "Delivery that stays connected",
-                "body": "Fulfillment keeps pace with kitchen reality instead of racing ahead of it."
-              },
-              {
-                "id": 6,
-                "title": "Ready for full-stack growth",
-                "body": "When ops are steady, marketing and 360° capabilities compound instead of colliding."
-              }
-            ]
-          },
-          {
-            "id": "stats",
-            "title": "Trusted by busy restaurant teams",
-            "titleAccent": "restaurant teams",
-            "items": [
-              {
-                "id": 1,
-                "value": "120+",
-                "label": "Restaurants on platform"
-              },
-              {
-                "id": 2,
-                "value": "350+",
-                "label": "Outlets managed"
-              },
-              {
-                "id": 3,
-                "value": "99.9%",
-                "label": "Platform uptime target"
-              }
-            ]
-          },
-          {
-            "id": "explore",
-            "title": "Explore other Safri packages",
-            "items": [
-              {
-                "id": "online-ordering",
-                "title": "Online Ordering",
-                "badge": "ORDER",
-                "path": "/services/online-ordering",
-                "body": "Own the direct channel with branded web and mobile ordering."
-              },
-              {
-                "id": "delivery",
-                "title": "Delivery",
-                "badge": "DELIVER",
-                "path": "/services/delivery",
-                "body": "Keep outlets, riders, and promotions moving in one flow."
-              },
-              {
-                "id": "360",
-                "title": "Safri 360°",
-                "badge": "360°",
-                "path": "/services/360",
-                "body": "Connect ordering, delivery, ops, and marketing in one stack."
-              }
-            ]
-          },
-          {
-            "id": "ctaBanner",
-            "titleLines": [
-              "Increase sales",
-              "Decrease cost"
-            ],
-            "ctaText": "Book a demo",
-            "ctaPath": "/contact",
-            "bgImg": "/uploads/files-1790769209766-bg-sales.jpg",
-            "subTitle": "Start free today — set up in under 5 minutes.",
-            "secondaryCtaText": "See packages",
-            "secondaryCtaPath": "/services",
-            "body": "Kitchen, floor, and outlets aligned so every rush stays fast, accurate, and calm.",
-            "points": [
-              "Kitchen sync",
-              "Floor clarity",
-              "Multi-outlet"
-            ]
-          },
-          {
-            "id": "contactForm",
-            "label": "Contact Us",
-            "title": "Run better with Operations",
-            "subTitle": "Tell us how your kitchen and outlets work today—we will map the Operations package to your rush.",
+            "title": "Grow with Safri Plus",
+            "subTitle": "Share your payment, delivery, and outlet needs—we will walk you through the right setup.",
             "submitLabel": "Register Your Restaurant",
             "successToast": "Thanks — our team will reach out about your restaurant shortly."
           }
@@ -1257,9 +1284,9 @@
             "id": "hero",
             "label": "Safri 360°",
             "badge": "360°",
-            "title": "Modernize your restaurant growth with Safri 360°",
+            "title": "Run your complete restaurant ecosystem with Safri 360°",
             "titleAccent": "Safri 360°",
-            "body": "Bring ordering, delivery, operations, and marketing into one operating picture—so growth does not mean more fragmented tools.",
+            "body": "Everything in Plus, with branded Android & iOS apps, a dedicated kitchen app, WhatsApp ordering, and unlimited outlets—in one operating picture.",
             "primaryCtaText": "Contact us",
             "primaryCtaPath": "/contact",
             "secondaryCtaText": "See outcomes",
@@ -1271,36 +1298,36 @@
             "id": "intro",
             "label": "Full picture",
             "title": "Built for brands ready to run the whole guest journey",
-            "body": "Safri 360° is for operators who want one platform that scales with every channel—not a patchwork of short-term fixes."
+            "body": "Safri 360° is the complete restaurant digital ecosystem—for operators who want one platform across every channel, outlet, and kitchen."
           },
           {
             "id": "value",
             "label": "Why Safri 360°",
             "title": "Everything your growth team needs in one place",
             "titleAccent": "in one place",
-            "body": "Unify the work of selling, fulfilling, operating, and marketing so decisions stay grounded in real restaurant performance.",
+            "body": "Unify ordering, payments, delivery, kitchen, and guest apps so decisions stay grounded in real restaurant performance.",
             "ctaText": "Get started",
             "ctaPath": "/contact",
             "cards": [
               {
                 "id": 1,
-                "title": "Unified commercial view",
-                "body": "See demand, fulfillment, and outlet health together instead of stitching weekly exports."
+                "title": "Your own mobile apps",
+                "body": "Branded Android & iOS apps so guests order under your brand, not a marketplace."
               },
               {
                 "id": 2,
-                "title": "Campaigns tied to reality",
-                "body": "Marketing actions connect to what kitchens and delivery can actually handle."
+                "title": "Dedicated kitchen app",
+                "body": "A kitchen app for Android & iOS keeps prep stations aligned when volume spikes."
               },
               {
                 "id": 3,
-                "title": "Lower tool sprawl",
-                "body": "Replace overlapping vendors with one stack your managers already understand."
+                "title": "WhatsApp ordering",
+                "body": "Take orders where your guests already chat—connected to the same menus and kitchen."
               },
               {
                 "id": 4,
-                "title": "Scale without re-platforming",
-                "body": "Add outlets and channels without restarting your technology story each year."
+                "title": "Unlimited outlets",
+                "body": "Add branches and channels without re-platforming or restarting your tech story."
               }
             ]
           },
@@ -1317,28 +1344,28 @@
               },
               {
                 "id": 2,
-                "title": "Marketing that respects capacity",
+                "title": "Advanced discounts & deals",
                 "body": "Promotions lift sales without flooding outlets beyond what they can fulfill well."
               },
               {
                 "id": 3,
                 "title": "Cross-outlet benchmarking",
-                "body": "Compare performance patterns and spread what works across the brand."
+                "body": "Advanced analytics compare performance patterns and spread what works across the brand."
               },
               {
                 "id": 4,
-                "title": "Lower coordination cost",
-                "body": "Teams spend less time reconciling systems and more time serving guests."
+                "title": "Advanced custom branding",
+                "body": "Your brand carries through web, apps, and WhatsApp for a consistent guest experience."
               },
               {
                 "id": 5,
-                "title": "Clearer path from insight to action",
-                "body": "Analytics sit next to the workflows that can change tonight’s results."
+                "title": "Kitchen and channels in sync",
+                "body": "Every order—app, web, or WhatsApp—lands on the same kitchen workflow."
               },
               {
                 "id": 6,
-                "title": "A platform story investors understand",
-                "body": "Show a coherent digital operating system—not a fragile collection of apps."
+                "title": "Priority 24×7 support",
+                "body": "Our team is on hand around the clock when your operation needs it most."
               }
             ]
           },
@@ -1366,28 +1393,21 @@
           },
           {
             "id": "explore",
-            "title": "Explore other Safri packages",
+            "title": "Explore other Safri plans",
             "items": [
               {
-                "id": "online-ordering",
-                "title": "Online Ordering",
-                "badge": "ORDER",
-                "path": "/services/online-ordering",
-                "body": "Own the direct channel with branded web and mobile ordering."
+                "id": "free",
+                "title": "Safri Free",
+                "badge": "FREE",
+                "path": "/services/free",
+                "body": "Start selling online with essential ordering for one outlet."
               },
               {
-                "id": "delivery",
-                "title": "Delivery",
-                "badge": "DELIVER",
-                "path": "/services/delivery",
-                "body": "Keep outlets, riders, and promotions moving in one flow."
-              },
-              {
-                "id": "operations",
-                "title": "Operations",
-                "badge": "OPS",
-                "path": "/services/operations",
-                "body": "Align kitchen, floor, and outlet teams during every rush."
+                "id": "plus",
+                "title": "Safri Plus",
+                "badge": "PLUS",
+                "path": "/services/plus",
+                "body": "Add online payments, delivery, and up to 5 outlets."
               }
             ]
           },
@@ -1400,14 +1420,14 @@
             "ctaText": "Book a demo",
             "ctaPath": "/contact",
             "bgImg": "/uploads/files-1790769209766-bg-sales.jpg",
-            "subTitle": "Start free today — set up in under 5 minutes.",
-            "secondaryCtaText": "See packages",
-            "secondaryCtaPath": "/services",
-            "body": "Ordering, delivery, operations, and marketing in one stack — grow without tool sprawl.",
+            "subTitle": "250 SAR / month or 2,400 SAR / year + 2.5% online payment fee.",
+            "secondaryCtaText": "See pricing",
+            "secondaryCtaPath": "/#pricing",
+            "body": "Branded apps, kitchen app, WhatsApp ordering, and unlimited outlets—grow without tool sprawl.",
             "points": [
-              "One platform",
-              "Unified insights",
-              "Full package"
+              "Android & iOS apps",
+              "WhatsApp ordering",
+              "24×7 support"
             ]
           },
           {
@@ -1426,7 +1446,7 @@
           {
             "id": "hero",
             "title": "We're Here To Help You Serve Better",
-            "body": "Connect with our team to see how Online Ordering, Delivery, Operations, or Safri 360° can fit your restaurants.",
+            "body": "Connect with our team to see how Safri Free, Safri Plus, or Safri 360° can fit your restaurants.",
             "primaryCtaText": "Book a demo",
             "primaryCtaPath": "#contact",
             "secondaryCtaText": "View solutions",
@@ -1481,12 +1501,12 @@
               {
                 "id": 1,
                 "question": "What is Safri?",
-                "answer": "Safri is a restaurant technology platform for online ordering, delivery, kitchen and waiter ops, and marketing—packaged as Online Ordering, Delivery, Operations, and Safri 360°."
+                "answer": "Safri is a restaurant technology platform for online ordering, payments, delivery, kitchen apps, and WhatsApp ordering—available as Safri Free, Safri Plus, and Safri 360°."
               },
               {
                 "id": 2,
-                "question": "How do the packages differ?",
-                "answer": "Online Ordering covers RMS, mobile-first website, ordering, and analytics. Delivery adds outlets, delivery service, and deals. Operations adds kitchen, Android, and waiter apps. Safri 360° includes everything plus marketing."
+                "question": "How do the plans differ?",
+                "answer": "Safri Free gets one outlet selling online with pickup, curbside, and cash orders. Safri Plus (79 SAR/month) adds online payments, delivery integration, deals, a custom domain, and up to 5 outlets. Safri 360° (250 SAR/month) adds branded Android & iOS apps, a kitchen app, WhatsApp ordering, unlimited outlets, and priority 24×7 support. Paid plans include a 2.5% online payment fee."
               },
               {
                 "id": 3,

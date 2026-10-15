@@ -14,10 +14,16 @@ import ServicePackageStatsSection from "../sections/ServicePackageStatsSection";
 import ServicePackageValueSection from "../sections/ServicePackageValueSection";
 
 const SLUG_TO_PAGE_ID: Record<string, string> = {
-  "online-ordering": "service-online-ordering",
-  delivery: "service-delivery",
-  operations: "service-operations",
+  free: "service-free",
+  plus: "service-plus",
   "360": "service-360",
+};
+
+/** Old package slugs, kept so shared links land on the matching plan. */
+const LEGACY_SLUG_REDIRECTS: Record<string, string> = {
+  "online-ordering": "free",
+  delivery: "plus",
+  operations: "360",
 };
 
 type ThemeSection = ServiceThemeTokens & { id: string };
@@ -30,6 +36,11 @@ const ServicePackagePage = () => {
     pageId ?? "",
     "theme",
   );
+
+  const legacyTarget = slug ? LEGACY_SLUG_REDIRECTS[slug] : undefined;
+  if (legacyTarget) {
+    return <Navigate to={`/services/${legacyTarget}`} replace />;
+  }
 
   if (!pageId || !getPage(pageId)) {
     return <Navigate to="/services" replace />;

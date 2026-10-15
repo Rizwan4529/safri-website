@@ -3,18 +3,22 @@ import { HiOutlineBars3, HiOutlineChevronDown, HiOutlineXMark } from "react-icon
 import { Link, useLocation } from "react-router-dom";
 import logoFallback from "../../assets/images/safri-small-logo.png";
 import { mediaUrl } from "../../config/env";
-import { resolveNavHref } from "../../constants/nav";
+import {
+  resolveNavHref,
+  SIGN_IN_LABEL,
+  SIGN_IN_URL,
+} from "../../constants/nav";
 import { usePageSection } from "../../context/ContentContext";
 import type { ContentLink } from "../../types/content";
-import RequestDemoButton from "../ui/RequestDemoButton";
+import Button from "../ui/Button";
 
 type PrimaryNavSection = {
   id: string;
   logo?: string;
   logoAlt?: string;
   links?: ContentLink[];
-  ctaText?: string;
-  ctaPath?: string;
+  signInText?: string;
+  signInUrl?: string;
 };
 
 const Navbar = () => {
@@ -47,8 +51,8 @@ const Navbar = () => {
   const [logoFailed, setLogoFailed] = useState(false);
   const logoSrc = logoFailed || !remoteLogo ? logoFallback : remoteLogo;
   const logoAlt = section?.logoAlt ?? "Safri";
-  const ctaText = section?.ctaText ?? "Request a Demo";
-  const ctaPath = section?.ctaPath ?? "/contact";
+  const signInText = section?.signInText ?? SIGN_IN_LABEL;
+  const signInUrl = section?.signInUrl ?? SIGN_IN_URL;
 
   const sectionHref = (href: string) => resolveNavHref(href, isHome);
 
@@ -230,7 +234,9 @@ const Navbar = () => {
 
           <div className="flex items-center gap-3">
             <div className="hidden shrink-0 lg:block">
-              <RequestDemoButton href={ctaPath}>{ctaText}</RequestDemoButton>
+              <Button variant="primary" size="cta" href={signInUrl}>
+                {signInText}
+              </Button>
             </div>
             <button
               type="button"
@@ -357,12 +363,9 @@ const Navbar = () => {
               })}
             </ul>
             <div className="mt-4">
-              <RequestDemoButton
-                href={ctaPath}
-                onClick={() => setMenuOpen(false)}
-              >
-                {ctaText}
-              </RequestDemoButton>
+              <Button variant="primary" size="cta" href={signInUrl}>
+                {signInText}
+              </Button>
             </div>
           </div>
         ) : null}
