@@ -1,4 +1,4 @@
-import { apiUrl, getTenantDomain } from "../config/env";
+import { apiUrl } from "../config/env";
 import type { ApiListResponse, TenantSiteContent } from "../types/content";
 
 type PublicTenantContentData = {
