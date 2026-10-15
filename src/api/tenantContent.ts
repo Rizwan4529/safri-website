@@ -10,7 +10,8 @@ type PublicTenantContentData = {
 };
 
 export const fetchTenantContent = async (): Promise<TenantSiteContent> => {
-  const query = new URLSearchParams({ domain: getTenantDomain() });
+  // const query = new URLSearchParams({ domain: getTenantDomain() });
+  const query = new URLSearchParams({ domain: "app.safri.food" });
   const response = await fetch(
     apiUrl(`/api/v1/public/tenant-contents?${query.toString()}`),
     {
